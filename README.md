@@ -1,6 +1,6 @@
 <p align="center">
-  <h1 align="center">📚 MyAgent - 智能知识库管理系统</h1>
-  <p align="center">基于 RAG 的智能问答知识库，支持文档管理、向量检索与 Agent 交互</p>
+  <h1 align="center">📚 AI面试Copilot</h1>
+  <p align="center">基于 RAG 的智能问答知识库，支持文档管理、向量检索与 Agent 交互，ASR实时转译与意见提供</p>
 </p>
 
 <p align="center">
@@ -21,16 +21,12 @@
 - 文档上传与处理状态跟踪
 
 ### 📄 文档处理
-- 支持 PDF、TXT、Markdown 格式
+- 利用MinerU 进行文档处理,统一解析为Markdown格式，利用Vlm模型对解析后格式优化校正
 - 智能 Markdown 分块（基于标题层级）
 - 自动向量化与索引构建
-- MinerU 集成解析复杂文档
 
 ### 🔍 智能检索
-- **混合检索**: 向量检索 + 关键词检索
-- **查询扩展**: 自动扩展相关查询
-- **重排序**: 基于相关性的二次排序
-- **质量控制**: 检索结果质量评估
+- **混合检索**: 向量检索 + 关键词检索，大范围rerank之后进行chunk merge,再进行二次rerank提高召回质量
 
 ### 🤖 Agent 系统
 - LangGraph 驱动的 RAG Agent
@@ -134,40 +130,7 @@ cp .env.example .env  # 如果有示例文件
 # 或手动创建 .env 文件
 ```
 
-**后端 `.env` 配置示例：**
 
-```env
-# MySQL 配置
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PASSWORD=your_password
-MYSQL_DB=knowledge_base
-MYSQL_PORT=3306
-
-# Milvus 配置
-MILVUS_HOST=localhost
-MILVUS_PORT=19530
-
-# DashScope API (通义千问)
-DASHSCOPE_API_KEY=your_api_key
-DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-
-# LLM 模型配置
-GENERATION_MODEL=deepseek-v4-pro
-REWRITE_MODEL=deepseek-v4-pro
-RERANK_MODEL=qwen3-rerank
-
-# Embedding 模型
-EMBEDDING_MODEL=text-embedding-v4
-EMBEDDING_DIMENSION=1536
-
-# OSS 配置 (可选)
-OSS_ACCESS_KEY_ID=your_access_key
-OSS_ACCESS_KEY_SECRET=your_secret_key
-OSS_REGION=cn-hangzhou
-OSS_ENDPOINT=oss-cn-hangzhou.aliyuncs.com
-OSS_BUCKET=your_bucket_name
-```
 
 ### 4. 启动后端服务
 
@@ -201,7 +164,7 @@ npm run dev
 
 ```
 MyAgent/
-├── frontend/                    # 前端项目
+├── frontend/                    # 前端项目s
 │   ├── src/
 │   │   ├── api/                # API 接口定义
 │   │   ├── views/              # 页面组件
@@ -341,7 +304,149 @@ python eval/ragas_eval.py
 ---
 
 
-### ASR 功能待开发中
+### 🎙️ 会议实时转写系统 (Meeting Transcriber)
+
+基于 ASR 的会议/面试实时转写与智能建议系统，支持双流音频采集、实时转写、LLM 建议生成。
+
+#### 核心功能
+
+- **双流音频采集**: 同时采集麦克风（自己）和系统音频（对方/面试官）
+- **实时 ASR 转写**: 支持批量和流式两种 ASR 模式，自动语言检测
+- **智能建议生成**: 基于 LLM 分析对话上下文，实时生成面试/会议建议
+- **桌面 GUI 应用**: 基于 tkinter 的可视化界面，支持实时显示转写和建议
+- **会议报告导出**: 自动生成 Markdown 格式的会议记录报告
+
+#### 技术架构
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Meeting Transcriber                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
+│  │  Audio Layer │  │   ASR Layer  │  │  Advisor     │         │
+│  │  ┌─────────┐ │  │  ┌─────────┐ │  │  ┌─────────┐ │         │
+│  │  │Recorder │ │  │  │Gradio   │ │  │  │Suggestion│ │         │
+│  │  │Capture  │ │  │  │ASR      │ │  │  │Engine   │ │         │
+│  │  │Device   │ │  │  │Streaming│ │  │  │Prompts  │ │         │
+│  │  │Manager  │ │  │  │Merger   │ │  │  │         │ │         │
+│  │  └─────────┘ │  │  └─────────┘ │  │  └─────────┘ │         │
+│  └──────────────┘  └──────────────┘  └──────────────┘         │
+│           │               │                │                   │
+│           ▼               ▼                ▼                   │
+│  ┌─────────────────────────────────────────────────┐           │
+│  │              Output Layer                        │           │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐         │           │
+│  │  │  GUI    │  │  REST   │  │WebSocket│         │           │
+│  │  │(tkinter)│  │   API   │  │   API   │         │           │
+│  │  └─────────┘  └─────────┘  └─────────┘         │           │
+│  └─────────────────────────────────────────────────┘           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+#### 模块说明
+
+| 模块 | 路径 | 功能 |
+|------|------|------|
+| **audio** | `meeting_transcriber/audio/` | 音频采集、设备管理、录音器 |
+| **asr** | `meeting_transcriber/asr/` | ASR 识别、流式处理、结果合并 |
+| **advisor** | `meeting_transcriber/advisor/` | LLM 建议引擎、Prompt 模板 |
+| **report** | `meeting_transcriber/report/` | Markdown 报告生成 |
+| **api** | `meeting_transcriber/api/` | REST API、WebSocket 接口 |
+| **gui** | `meeting_transcriber/gui.py` | tkinter 桌面应用 |
+
+#### 快速启动
+
+```bash
+cd meeting_transcriber
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 方式 1: 启动 FastAPI 服务 (默认端口 8200)
+python main.py
+
+# 方式 2: 启动桌面 GUI 应用
+python main.py --gui
+```
+
+#### 配置说明
+
+在项目根目录或 `meeting_transcriber/` 下创建 `.env` 文件：
+
+```env
+# ASR 服务配置
+ASR_SERVER_URL=http://localhost:8101    # ASR 服务地址
+ASR_LANGUAGE=Auto                        # 语言 (Auto/zh/en/ja/ko)
+
+# 音频配置
+AUDIO_SAMPLE_RATE=16000                  # 采样率
+AUDIO_CHANNELS=1                         # 声道数
+AUDIO_CHUNK_DURATION=4.0                 # 分段时长（秒）
+
+# LLM 建议配置
+DASHSCOPE_API_KEY=your_api_key           # DashScope API 密钥
+SUGGESTION_MODEL=deepseek-v4-pro         # 建议生成模型
+SUGGESTION_MIN_INTERVAL=15.0             # 最小建议间隔（秒）
+SUGGESTION_TIME_TRIGGER=45.0             # 定时触发间隔（秒）
+SUGGESTION_CONTEXT_ROUNDS=10             # 上下文窗口轮数
+
+# ASR 模式
+ASR_MODE=batch                           # batch 或 streaming
+
+# 服务配置
+MEETING_HOST=0.0.0.0                     # 服务地址
+MEETING_PORT=8200                        # 服务端口
+MEETING_DEBUG=false                      # 调试模式
+
+# 报告输出
+REPORT_OUTPUT_DIR=./meeting_reports      # 报告保存目录
+```
+
+#### API 接口
+
+| 方法 | 路径 | 说明 |
+|------|------|------|
+| `POST` | `/api/v1/meeting/start` | 开始录制 |
+| `POST` | `/api/v1/meeting/stop` | 停止录制 |
+| `GET` | `/api/v1/meeting/status` | 获取录制状态 |
+| `GET` | `/api/v1/meeting/transcripts` | 获取转写记录 |
+| `GET` | `/api/v1/meeting/suggestions` | 获取建议列表 |
+| `WS` | `/ws/meeting/{session_id}` | WebSocket 实时推送 |
+
+#### 数据模型
+
+- **AudioSegment**: 音频片段（含说话人标记、时间戳、采样率）
+- **TranscriptSegment**: 转写结果（含识别文本、语言、是否最终结果）
+- **Suggestion**: LLM 生成的建议（含内容、上下文摘要）
+- **MeetingSession**: 会议会话（含场景、转写记录、建议记录）
+
+#### 场景支持
+
+- **面试模式** (INTERVIEW): 针对面试场景优化的建议 Prompt
+- **会议模式** (MEETING): 通用会议记录与建议
+- **自定义模式** (CUSTOM): 可扩展的自定义场景
+
+#### 依赖项
+
+```
+# audio
+pyaudiowpatch>=0.2.12    # Windows 音频采集
+numpy>=1.24.0
+
+# asr
+gradio_client>=1.3.0     # Gradio ASR 客户端
+
+# llm
+dashscope>=1.20.0        # 阿里云 DashScope
+
+# api
+fastapi>=0.115.0
+uvicorn>=0.32.0
+websockets>=12.0
+
+# utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+```
 
 ---
 
