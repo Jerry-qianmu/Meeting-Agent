@@ -1,0 +1,28 @@
+{
+  "metrics": {
+    "faithfulness": NaN,
+    "answer_relevancy": 0.8669,
+    "context_precision": 0.0,
+    "context_recall": 0.1111,
+    "total_questions": 1,
+    "avg_chunks_per_query": 5.0,
+    "avg_retrieval_score": 0.7082,
+    "avg_top1_score": 0.8002,
+    "empty_retrieval_count": 0,
+    "empty_retrieval_rate": 0.0
+  },
+  "details": [
+    {
+      "question": "Compare the effects, methods of transmission, and ways to fight the contagions of Cackle Fever and Sight Rot.",
+      "answer": "好的，我将逐一检查所有片段，搜索关于“Cackle Fever”和“Sight Rot”的信息。\n\n我已找到这两种魔法传染病的信息。以下是对它们在效果、传播方式及对抗方法上的对比。\n\n### Cackle Fever（狂笑热）\n\n*   **效果**：感染1d4天后发作。具体表现为：\n    *   **发烧**：获得1级力竭状态，持续到病症结束 [片段 1]。\n    *   **不受控制的大笑**：在处于力竭状态时，每当受到非心灵伤害，都必须进行一次DC 13的体质豁免。豁免失败会受到5 (1d10)点心灵伤害，并因无法控制地大笑而陷入**失能**状态。受术者可以在每个回合结束时重复豁免，成功后效果结束；1分钟后自动成功 [片段 1]。\n*   **传播方式**：任何类人生物（侏儒除外）在受感染生物10尺范围内的灵光中开始其回合时，必须成功通过一次DC 10的体质豁免，否则也会被感染 [片段 1]。\n*   **对抗方法**：每次长休结束时，受感染的生物进行一次DC 13的体质豁免。在成功通过三次这样的豁免后，传染病结束，该生物在1年内对狂笑热免疫 [片段 1]。\n\n### Sight Rot（视腐症）\n\n*   **效果**：染病后立即陷入**目盲**状态，持续到病症结束 [片段 2]。\n*   **传播方式**：任何与受感染生物有皮肤接触的类人生物，必须成功通过一次DC 15的体质豁免，否则也会被感染 [片段 2]。\n*   **对抗方法**：\n    *   **魔法**：法术如*治愈术*或*次级复原术*可以立即结束该传染病 [片段 2]。\n    *   **草药**：拥有草药工具熟练项的角色可以花费1小时制作一份非魔法药膏。将药膏涂抹在患者的眼睛上可抑制病症24小时。如果以这种方式累计抑制病症达72小时（需要3剂药膏），传染病便会结束 [片段 2]。\n\n### 对比总结\n\n| 特性 | Cackle Fever (狂笑热) | Sight Rot (视腐症) |\n| :--- | :--- | :--- |\n| **主要效果** | 1级力竭；受伤时可能陷入**失能**状态 [片段 1] | **目盲** [片段 2] |\n| **传播方式** | 10尺范围灵光，DC 10 体质豁免 [片段 1] | 皮肤接触，DC 15 体质豁免 [片段 2] |\n| **感染对象** | 类人生物（侏儒免疫）[片段 1] | 野兽或类人生物 [片段 2] |\n| **对抗方法** | 长休后进行DC 13体质豁免，成功三次后痊愈并获得1年免疫 [片段 1] | 法术立即治愈；或使用草药工具制作药膏，连续抑制72小时后痊愈 [片段 2] |\n\n其他片段（3至8）未包含这两种传染病的信息，涉及的是下水道瘟疫、诅咒、恐惧效果、环境规则或野蛮人职业特性等不相关内容。",
+      "contexts": [
+        "If a creature infected with a magical contagion spends 3 days recuperating—engaging in no activities that would interrupt a Long Rest—the creature makes a DC 15 Constitution saving throw at the end of the recupe",
+        "*Magical Contagion*\nAny Beast or Humanoid that drinks water tainted by Sight Rot must succeed on a DC 15 Constitution saving throw or have the Blinded condition until the contagion ends.\n**Fighting the Contagion.** Magic such as a *Heal",
+        "*Magical Contagion*\nFouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including oty",
+        "---\n192 System Reference Document 5.2.1\n***\n**Intelligence or Wisdom.** One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.\n**Charisma.** This ability is ideal for a background that involves p",
+        "A curse might manifest during an adventure when a creature's violation of a taboo warrants supernatural punishment, such as breaking a vow, defiling a tomb, or murdering an innocent. Such a curse can have any effects you design, or it m"
+      ],
+      "ground_truth": "**Effects**\n*   **Cackle Fever:** Affects only Humanoids, with gnomes being immune. 1d4 days after infection, the creature gains one level of Exhaustion. When taking damage (other than Psychic), the creature must make a DC 13 Constitution saving throw. On a failure, it takes 5 (1d10) Psychic damage and becomes Incapacitated with uncontrollable laughter.\n*   **Sight Rot:** Affects Beasts and Humanoids. Upon infection, the creature must succeed on a DC 15 Constitution saving throw or gain the Blinded condition until the contagion is cured.\n\n**Methods of Transmission**\n*   **Cackle Fever:** The initial infection comes from cheaply made potions and elixirs. It spreads when a Humanoid (other than a gnome) starts its turn within a 10-foot emanation of an infected creature and fails a DC 10 Constitution saving throw.\n*   **Sight Rot:** The initial infection comes from drinking tainted water. It spreads when a Humanoid makes skin contact with an infected creature and fails a DC 15 Constitution saving throw.\n\n**Ways to Fight the Contagion**\n*   **Cackle Fever:** An infected creature makes a DC 13 Constitution saving throw after each Long Rest. The contagion ends after three successful saves, granting the creature immunity for one year.\n*   **Sight Rot:** The contagion can be ended immediately with magic such as a *Heal* or *Lesser Restoration* spell. Alternatively, a special ointment can be created with an Herbalism Kit. One application suppresses the contagion for 24 hours; if it is suppressed for a total of 72 hours (three applications), the contagion ends."
+    }
+  ]
+}

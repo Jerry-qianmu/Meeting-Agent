@@ -1,0 +1,192 @@
+# ── Mysql 配置 ────────────────────────────────────────────────────────────────
+MYSQL_PASSWORD=123456
+MYSQL_DB=interview_agent
+MYSQL_USER=root
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+
+# ── Milvus 配置 ───────────────────────────────────────────────────────────────
+
+MILVUS_HOST=localhost
+MILVUS_PORT=19530
+MILVUS_USER=
+MILVUS_PASSWORD=
+MILVUS_URL=http://${MILVUS_HOST}:${MILVUS_PORT}
+
+# ── Knowledge Base 配置 ───────────────────────────────────────────────────────
+KNOWLEDGE_BASE_NAME=
+
+# ── API 配置 ────────────────────────────────────────────────────────────
+DASHSCOPE_API_KEY=
+DASHSCOPE_BASE_URL="https://llm-o6awwpvahui3wgva.cn-beijing.maas.aliyuncs.com/api/v1"
+
+OPENAI_API_KEY=
+OPENAI_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+
+# ── Embedding Service 配置 ────────────────────────────────────────────────────
+EMBEDDING_MODEL=text-embedding-v4
+EMBEDDING_BATCH_SIZE=24
+EMBEDDING_DIMENSION=768
+
+
+# ── query_write settings ──────────────────────────────────────────────────────
+MAX_HISTORY_TURNS=3
+# ── RAG 模型配置 ────────────────────────────────────────────────────────────
+REWRITE_MODEL=deepseek-v4-flash
+DETERMINE_RETRIEVAL_STRATEGY_MODEL=mimo-v2.5
+GENERATE_MODEL=mimo-v2.5-pro
+GENERATION_MODEL=mimo-v2.5-pro
+MD_ENRICH_MODEL=mimo-v2.5-pro
+
+# ── Memory Constellations 记忆系统模型配置 ───────────────────────────────────
+# 记忆系统专用 LLM（碎片提取、实体识别、分类等高频任务）
+MEMORY_LLM_MODEL=mimo-v2.5-pro
+# 记忆系统深度 LLM（碎片→剧集整合等低频任务）
+MEMORY_DEEP_LLM_MODEL=mimo-v2.5-pro
+
+"""一个collection对应一个knowledegebase"""
+COLLECTION_NAME=
+
+TOP_K=40
+FILTER_EXPR=
+
+# keyword
+USE_TEXT_MATCH_FILTER=False
+KEYWORD_FILTER=
+
+# hybrid
+
+RANKER=RRF
+RRF_K=60
+HYBRID_ALPHA=0.7
+SEARCH_LIMIT=30
+# group
+GROUP_BY_FIELD=
+GROUP_SIZE=5
+STRICT_GROUP_SIZE=False
+
+#Light filter
+LIGHT_FILTER_THRESHOLD=0
+
+#rerank setting
+RERANK_MODEL=qwen3-rerank
+RERANK_LIMIT=40
+RERANK_FINAL_TOP_K=20
+
+# generate setting---------------------------------------------
+MAX_CONTEXT_TOKENS=8192
+
+# quality_control settings-------------------------------------
+# 质量评估模型
+QUALITY_EVAL_MODEL=deepseek-v4-flash
+
+# 最大重试次数
+QUALITY_MAX_RETRIES=2
+
+# 质量通过阈值
+QUALITY_SCORE_THRESHOLD=0.6
+QUALITY_GROUNDEDNESS_THRESHOLD=0.5
+QUALITY_RELEVANCE_THRESHOLD=0.5
+
+# 重试策略参数
+RETRY_BROADEN_THRESHOLD_DELTA=-0.05
+RETRY_BROADEN_TOPK_DELTA=5
+RETRY_NARROW_THRESHOLD_DELTA=0.1
+RETRY_NARROW_TOPK_DELTA=-3
+RETRY_INCREASE_TOPK_DELTA=5
+
+# oss 配置---------------------------------------------------
+
+# 阿里云 OSS 访问凭证
+OSS_ACCESS_KEY_ID=
+OSS_ACCESS_KEY_SECRET=
+
+# OSS 区域和端点
+OSS_REGION=cn-beijing
+OSS_ENDPOINT=https://oss-cn-beijing.aliyuncs.com
+
+# OSS 存储桶名称
+OSS_BUCKET=rag-system-test
+
+
+# MCP 配置---------------------------------------------------
+TAVILY_API_KEY=
+
+# ── LLM 统一配置 ──────────────────────────────────────────────────────────────
+# 全局默认（per-use-case 留空时走这里）
+LLM_API_TYPE=dashscope
+LLM_API_KEY=${DASHSCOPE_API_KEY}
+LLM_BASE_URL=${DASHSCOPE_BASE_URL}
+
+# 各用途独立配置（留空 = 用全局默认）
+# 如需某个用途用 OpenAI，取消注释并填写
+# GENERATION_API_TYPE=openai
+# GENERATION_API_KEY=sk-xxx
+# GENERATION_BASE_URL=https://api.openai.com/v1
+
+# REWRITE_API_TYPE=dashscope
+# REWRITE_API_KEY=
+# REWRITE_BASE_URL='https://llm-o6awwpvahui3wgva.cn-beijing.maas.aliyuncs.com/api/v1'
+REWRITE_API_TYPE=openai
+REWRITE_API_KEY=
+REWRITE_BASE_URL="https://api.deepseek.com"
+
+GENERATION_API_TYPE=openai
+GENERATION_API_KEY=
+GENERATION_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+# GENERATION_API_TYPE=openai
+# GENERATION_API_KEY=
+# GENERATION_BASE_URL="https://api.deepseek.com"
+
+# QUALITY_EVAL_API_TYPE=openai
+# QUALITY_EVAL_API_KEY=
+# QUALITY_EVAL_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+QUALITY_EVAL_API_TYPE=openai
+QUALITY_EVAL_API_KEY=
+QUALITY_EVAL_BASE_URL="https://api.deepseek.com"
+
+MEMORY_COMPRESS_API_TYPE=openai
+MEMORY_COMPRESS_API_KEY=
+MEMORY_COMPRESS_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+MD_ENRICH_API_TYPE=openai
+MD_ENRICH_API_KEY=
+MD_ENRICH_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+MEMORY_API_TYPE=openai
+MEMORY_API_KEY=
+MEMORY_BASE_URL='https://token-plan-cn.xiaomimimo.com/v1'
+
+MD_CHUNK_MIN_TOKENS=200      # 最小 token
+MD_CHUNK_MAX_TOKENS=600      # 最大 token
+MD_CHUNK_TARGET_TOKENS=500   # 目标 token（累加器 flush 阈值）
+MD_CHUNK_PREPEND_HEADING=true # 是否注入面包屑
+MD_CHUNK_OVERLAP_RATIO=0.15  # 超长段落切分时的 overlap 比例（0.1~0.2）
+
+# ── Chunk Merge 配置 ────────────────────────────────────────────────────────────
+# 是否启用chunk合并（true/false）
+CHUNK_MERGE_ENABLE=true
+
+# 合并后chunk的最大token数（超过此限制不再合并）
+CHUNK_MERGE_MAX_TOKENS=1200
+
+# 允许chunk_index的最大间隔（例如：1表示只合并相邻的，2表示允许间隔1个chunk）
+CHUNK_MERGE_MAX_GAP=1
+
+# 是否启用上下文扩展（当单个chunk较短时，从数据库获取相邻chunk补充上下文）
+CHUNK_MERGE_ENABLE_CONTEXT_EXPANSION=true
+
+# 低于此token数的chunk会尝试从数据库获取上下文进行扩展
+CHUNK_MERGE_MIN_TOKENS_FOR_EXPANSION=200
+
+# 是否启用第二次rerank（对合并后的chunks重新排序）
+CHUNK_MERGE_ENABLE_SECOND_RERANK=true
+
+# 第二次rerank的最大chunk数
+CHUNK_MERGE_SECOND_RERANK_LIMIT=30
+
+# 最终返回的chunk数（第二次rerank后保留的chunk数）
+CHUNK_MERGE_FINAL_TOP_K=10

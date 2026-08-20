@@ -1,0 +1,758 @@
+{
+  "timestamp": "2026-07-26T16:02:30.065567",
+  "kb_id": "8321680d-e645-4edb-b63e-892ee6073bba",
+  "collection_name": "kb_de111144_d2d_3d109516",
+  "top_k": 40,
+  "total_questions": 25,
+  "total_passages": 78,
+  "hit_at_5": 62,
+  "hit_at_10": 71,
+  "hit_at_20": 73,
+  "hit_at_top_k": 74,
+  "mrr": 1.8711476190476193,
+  "details": [
+    {
+      "id": 0,
+      "question": "Compare the restoration abilities of the Pit Fiend, Planetar, Rakshasa, and Sola",
+      "status": "PASS",
+      "matched_count": 4,
+      "recalled_count": 4,
+      "recall_rate": 1.0,
+      "mrr": 2.033333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "**Diabolical Restoration.** If the pit fiend dies outside the Nine Hells, its bo",
+          "ground_truth_chunk_id": "c0637ac3-1ece-4a77-a8c7-890eee4edfd9",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "**Fiendish Restoration.** If the rakshasa dies outside the Nine Hells, its body ",
+          "ground_truth_chunk_id": "394447f8-52b7-4e39-8d8e-c3a3feaf1461",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "**Exalted Restoration.** If the planetar dies outside Mount Celestia, its body d",
+          "ground_truth_chunk_id": "4e452d52-7931-4dfc-97cc-f54dd650bd06",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "**Exalted Restoration.** If the solar dies outside Mount Celestia, its body disa",
+          "ground_truth_chunk_id": "34f95ba6-eaeb-44f9-b6e2-cf356fe94096",
+          "match_type": "FULL",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "question": "What are the three unique healing-enhancement features granted by the Life Domai",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 3.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "### Level 3: Disciple of Life When a spell you cast with a spell slot restores H",
+          "ground_truth_chunk_id": "fd0afaf9-f085-49fc-be73-c964164e457b",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "### Level 6: Blessed Healer The healing spells you cast on others heal you as we",
+          "ground_truth_chunk_id": "fd0afaf9-f085-49fc-be73-c964164e457b",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "### Level 17: Supreme Healing When you would normally roll one or more dice to r",
+          "ground_truth_chunk_id": "fd0afaf9-f085-49fc-be73-c964164e457b",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What are the specific methods for destroying each of the seven layers of a Prism",
+      "status": "PARTIAL",
+      "matched_count": 7,
+      "recalled_count": 4,
+      "recall_rate": 0.5714285714285714,
+      "mrr": 4.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "1 | **Red.** Failed Save: 12d6 Fire damage. Successful Save: Half as much damage",
+          "ground_truth_chunk_id": "9a1b4c00-0c0d-4226-9cb4-36db46f73d81",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "2 | **Orange.** Failed Save: 12d6 Acid damage. Successful Save: Half as much dam",
+          "ground_truth_chunk_id": "9a1b4c00-0c0d-4226-9cb4-36db46f73d81",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "3 | **Yellow.** Failed Save: 12d6 Lightning damage. Successful Save: Half as muc",
+          "ground_truth_chunk_id": "9a1b4c00-0c0d-4226-9cb4-36db46f73d81",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "4 | **Green.** Failed Save: 12d6 Poison damage. Successful Save: Half as much da",
+          "ground_truth_chunk_id": "9a1b4c00-0c0d-4226-9cb4-36db46f73d81",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "5 | **Blue.** Failed Save: 12d6 Cold damage. Successful Save: Half as much damag",
+          "ground_truth_chunk_id": "5ad5fb79-08e9-4eaa-999a-d14c0bcd6ea1",
+          "match_type": "PARTIAL",
+          "rank": -1
+        },
+        {
+          "passage_preview": "6 | **Indigo.** Failed Save: The target has the Restrained condition and makes a",
+          "ground_truth_chunk_id": "5ad5fb79-08e9-4eaa-999a-d14c0bcd6ea1",
+          "match_type": "PARTIAL",
+          "rank": -1
+        },
+        {
+          "passage_preview": "7 | **Violet.** Failed Save: The target has the Blinded condition and makes a Wi",
+          "ground_truth_chunk_id": "5ad5fb79-08e9-4eaa-999a-d14c0bcd6ea1",
+          "match_type": "PARTIAL",
+          "rank": -1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "A level 6 Life Domain Cleric casts a healing spell on an ally using a 2nd-level ",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.04,
+      "passage_ranks": [
+        {
+          "passage_preview": "lso seek the magic of this domain.  ### Level 3: Disciple of Life When a spell y",
+          "ground_truth_chunk_id": "b9a29c5b-6005-4ffa-b548-9cf27deece6e",
+          "match_type": "PARTIAL",
+          "rank": 25
+        },
+        {
+          "passage_preview": " more than half its Hit Point maximum.  ### Level 6: Blessed Healer The healing ",
+          "ground_truth_chunk_id": "fd0afaf9-f085-49fc-be73-c964164e457b",
+          "match_type": "PARTIAL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What are the effects of the Blinded condition, and how does the Blindsight abili",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 2.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "While you have the Blinded condition, you experience the following effects.  **C",
+          "ground_truth_chunk_id": "1e2841fb-f9ab-4a17-bc01-9225268d91f3",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "If you have Blindsight, you can see within a specific range without relying on p",
+          "ground_truth_chunk_id": "1e2841fb-f9ab-4a17-bc01-9225268d91f3",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the outcome of placing an item that creates an extradimensional space, l",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 0.5833333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "Placing the mirror inside an extradimensional space created by a Bag of Holding,",
+          "ground_truth_chunk_id": "31147afd-0e42-497c-9c47-d89f416b994c",
+          "match_type": "FULL",
+          "rank": 4
+        },
+        {
+          "passage_preview": "Placing a Portable Hole inside an extradimensional space created by a Bag of Hol",
+          "ground_truth_chunk_id": "bebe96ec-fdba-4185-8cc0-1ea43ac2b642",
+          "match_type": "FULL",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the differences between how Sorcerers and Warlocks manage and recover t",
+      "status": "PARTIAL",
+      "matched_count": 5,
+      "recalled_count": 4,
+      "recall_rate": 0.8,
+      "mrr": 1.6928571428571428,
+      "passage_ranks": [
+        {
+          "passage_preview": "spells. You regain all expended slots when you finish a Long Rest.",
+          "ground_truth_chunk_id": "0750dcf4-2c8b-4dc2-9390-457b7c09e01b",
+          "match_type": "FULL",
+          "rank": 20
+        },
+        {
+          "passage_preview": "n at Sorcerer levels 8, 12, and 16.  ### Level 5: Sorcerous Restoration When you",
+          "ground_truth_chunk_id": "809c0277-ee01-4171-a0cf-19f7319153db",
+          "match_type": "PARTIAL",
+          "rank": -1
+        },
+        {
+          "passage_preview": "**Creating Spell Slots.** As a Bonus Action, you can transform unexpended Sorcer",
+          "ground_truth_chunk_id": "1335e719-7eff-4cd1-9a4f-f3cad486f19e",
+          "match_type": "FULL",
+          "rank": 7
+        },
+        {
+          "passage_preview": "**Spell Slots.** The Warlock Features table shows how many spell slots you have ",
+          "ground_truth_chunk_id": "dd6dcaac-37b5-4929-96b7-26c9aac6e26f",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "ls. **Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus ",
+          "ground_truth_chunk_id": "3bd1c205-b165-46df-814c-1106d0c97433",
+          "match_type": "PARTIAL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "According to the rules on multiclassing, what are the ability score prerequisite",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "To qualify for a new class, you must have a score of at least 13 in the primary ",
+          "ground_truth_chunk_id": "d433b985-dc72-458c-9c37-56eceba926c5",
+          "match_type": "PARTIAL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "The Experience Point cost to gain a level is based on your total character level",
+          "ground_truth_chunk_id": "2d4d1611-8526-4ea7-ad9a-8a3f42cb2b72",
+          "match_type": "FULL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Compare and contrast the ways a level 13 Thief Rogue and a Warlock with the Pact",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.2,
+      "passage_ranks": [
+        {
+          "passage_preview": "**Scrolls.** You can use any *Spell Scroll*, using Intelligence as your spellcas",
+          "ground_truth_chunk_id": "9d6a125c-c8af-417d-b392-095150d7d2d9",
+          "match_type": "FULL",
+          "rank": 5
+        },
+        {
+          "passage_preview": "**Cantrips and Rituals.** When the book appears, choose three cantrips, and choo",
+          "ground_truth_chunk_id": "1dbab937-28fe-4f42-8af0-d302a494f7c4",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What are the specific requirements for providing the Verbal, Somatic, and Materi",
+      "status": "PASS",
+      "matched_count": 4,
+      "recalled_count": 4,
+      "recall_rate": 1.0,
+      "mrr": 3.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "A spell's components are physical requirements the spellcaster must meet to cast",
+          "ground_truth_chunk_id": "e573faeb-b39a-4d91-b69b-de5c56425d37",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "A Verbal component is the chanting of esoteric words that sound like nonsense to",
+          "ground_truth_chunk_id": "5e0e6aaa-5fb3-499b-8d5d-36cc4ec24970",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "A Somatic component is a forceful gesticulation or an intricate set of gestures.",
+          "ground_truth_chunk_id": "5e0e6aaa-5fb3-499b-8d5d-36cc4ec24970",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "A Material component is a particular material used in a spell's casting, as spec",
+          "ground_truth_chunk_id": "5e0e6aaa-5fb3-499b-8d5d-36cc4ec24970",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Compare the spells Wall of Force, Wall of Stone, and Wall of Ice, detailing thei",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 1.4583333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "An Invisible wall of force springs into existence at a point you choose within r",
+          "ground_truth_chunk_id": "bb4b2332-21b1-41aa-9b4f-a51c5fc49c5a",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "You create a wall of fire on a solid surface within range. You can make the wall",
+          "ground_truth_chunk_id": "c4abfa9a-459f-4af4-b9de-5d65525e139e",
+          "match_type": "PARTIAL",
+          "rank": 8
+        },
+        {
+          "passage_preview": "A nonmagical wall of solid stone springs into existence at a point you choose wi",
+          "ground_truth_chunk_id": "6e237bbc-6658-44aa-aab1-d9b92df17d3b",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What are the requirements, time commitments, and costs for a character to create",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 3.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "## Brewing Potions of Healing A character who has proficiency with the Herbalism",
+          "ground_truth_chunk_id": "c8baa07e-f58e-4638-af6c-1987441fd485",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "### Prerequisites for the Scribe To scribe a scroll, you must have proficiency i",
+          "ground_truth_chunk_id": "c8baa07e-f58e-4638-af6c-1987441fd485",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "#### Spell Scroll Costs | Spell Level | Time | Cost | | :--- | :--- | :--- | | C",
+          "ground_truth_chunk_id": "c8baa07e-f58e-4638-af6c-1987441fd485",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What are the differences between the Mass Cure Wounds, Mass Heal, and Mass Heali",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 1.8333333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "A wave of healing energy washes out from a point you can see within range. Choos",
+          "ground_truth_chunk_id": "d796f3a1-3022-4090-bf91-933d228de0f8",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "A flood of healing energy flows from you into creatures around you. You restore ",
+          "ground_truth_chunk_id": "9eecfdaa-18a8-4469-a548-d7201ea6b011",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "Up to six creatures of your choice that you can see within range regain Hit Poin",
+          "ground_truth_chunk_id": "07e400d7-ca52-45e4-914f-dfc9bec30d99",
+          "match_type": "FULL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What are the effects, poison type, and Constitution saving throw DC for Crawler ",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "#### Crawler Mucus (200 GP) *Contact Poison* A creature subjected to Crawler Muc",
+          "ground_truth_chunk_id": "45de9082-3dbe-4cc8-b21f-073fbab4be8a",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "#### Oil of Taggit (400 GP) *Contact Poison* A creature subjected to Oil of Tagg",
+          "ground_truth_chunk_id": "4ebc3ee2-3aa4-45ef-8e0f-2693a63e8a30",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Compare and contrast the 'Potent Spellcasting' feature available to both Clerics",
+      "status": "PASS",
+      "matched_count": 4,
+      "recalled_count": 4,
+      "recall_rate": 1.0,
+      "mrr": 2.3333333333333335,
+      "passage_ranks": [
+        {
+          "passage_preview": "### Level 7: Blessed Strikes Divine power infuses you in battle. You gain one of",
+          "ground_truth_chunk_id": "9989b40d-fcdd-40dd-920d-2925469ef9c4",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "### Level 14: Improved Blessed Strikes The option you chose for Blessed Strikes ",
+          "ground_truth_chunk_id": "9989b40d-fcdd-40dd-920d-2925469ef9c4",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "### Level 7: Elemental Fury The might of the elements flows through you. You gai",
+          "ground_truth_chunk_id": "615a83b0-92e7-4f77-ac83-abccff19b191",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "### Level 15: Improved Elemental Fury The option you chose for Elemental Fury gr",
+          "ground_truth_chunk_id": "d497367e-d6b4-4824-84a9-6fb1c68fb673",
+          "match_type": "FULL",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Compare the Swallow ability of the Purple Worm, Remorhaz, and Tarrasque. What ar",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 1.8333333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "**Swallow.** *Strength Saving Throw:* DC 19, one Large or smaller creature Grapp",
+          "ground_truth_chunk_id": "9653d689-8a60-49b5-97a1-4c2f34460b2a",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "**Swallow.** *Strength Saving Throw:* DC 19, one Large or smaller creature Grapp",
+          "ground_truth_chunk_id": "1299f60a-3828-4f57-bc6a-340fabfcdba6",
+          "match_type": "PARTIAL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "**Swallow.** *Strength Saving Throw:* DC 27, one Large or smaller creature Grapp",
+          "ground_truth_chunk_id": "932912bd-9515-4b11-b8b5-ceeb13b749e5",
+          "match_type": "FULL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "How do the defensive capabilities provided by the Draconic Sorcery subclass comp",
+      "status": "PASS",
+      "matched_count": 8,
+      "recalled_count": 8,
+      "recall_rate": 1.0,
+      "mrr": 2.145833333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "The magic in your body manifests physical traits of your draconic gift. Your Hit",
+          "ground_truth_chunk_id": "c443d3cb-545a-49de-bdef-51d2e8d055ec",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "Your draconic magic has an affinity with a damage type associated with dragons. ",
+          "ground_truth_chunk_id": "c443d3cb-545a-49de-bdef-51d2e8d055ec",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "* Gain the following traits from the Core Warlock Traits table: Hit Point Die an",
+          "ground_truth_chunk_id": "b2dd5154-3e12-4569-b113-419a571cf214",
+          "match_type": "FULL",
+          "rank": 16
+        },
+        {
+          "passage_preview": "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to",
+          "ground_truth_chunk_id": "2e46f3f6-9845-45ba-9c86-1035e9797a40",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "Choose one damage type, other than Force, whenever you finish a Short or Long Re",
+          "ground_truth_chunk_id": "2e46f3f6-9845-45ba-9c86-1035e9797a40",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "### Armor of Shadows You can cast *Mage Armor* on yourself without expending a s",
+          "ground_truth_chunk_id": "e63647b5-a2cd-4b86-9264-07963ae74951",
+          "match_type": "FULL",
+          "rank": 8
+        },
+        {
+          "passage_preview": "*Prerequisite: Level 2+ Warlock* You can cast *False Life* on yourself without e",
+          "ground_truth_chunk_id": "ef6d1511-a077-4033-a913-62d114917852",
+          "match_type": "FULL",
+          "rank": 6
+        },
+        {
+          "passage_preview": "### Eldritch Mind You have Advantage on Constitution saving throws that you make",
+          "ground_truth_chunk_id": "e63647b5-a2cd-4b86-9264-07963ae74951",
+          "match_type": "FULL",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What are the three types of modifiers that can be added to a D20 Test, and under",
+      "status": "PASS",
+      "matched_count": 4,
+      "recalled_count": 4,
+      "recall_rate": 1.0,
+      "mrr": 1.4583333333333335,
+      "passage_ranks": [
+        {
+          "passage_preview": "**5: Add Modifiers.** Add these modifiers to the number rolled on the d20: *   *",
+          "ground_truth_chunk_id": "be11c19b-f391-4f58-81db-40ebd3108e1a",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "Add your Proficiency Bonus to an ability check when the GM determines that a ski",
+          "ground_truth_chunk_id": "66b47c4b-308d-43c9-8278-22c862aff120",
+          "match_type": "FULL",
+          "rank": 8
+        },
+        {
+          "passage_preview": "You add your Proficiency Bonus to your saving throw if you have proficiency in t",
+          "ground_truth_chunk_id": "84779a85-05b0-473b-a32a-06aeec35cffd",
+          "match_type": "FULL",
+          "rank": 6
+        },
+        {
+          "passage_preview": "You add your Proficiency Bonus to your saving throw if you have proficiency in t",
+          "ground_truth_chunk_id": "84779a85-05b0-473b-a32a-06aeec35cffd",
+          "match_type": "PARTIAL",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "If a 10th-level Evoker wizard casts an Evocation spell that affects multiple cre",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 2.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "### Level 6: Sculpt Spells You can create pockets of relative safety within the ",
+          "ground_truth_chunk_id": "2b7a38f5-24a9-4f89-906b-659cfe4ba66e",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "### Level 10: Empowered Evocation Whenever you cast a Wizard spell from the Evoc",
+          "ground_truth_chunk_id": "2b7a38f5-24a9-4f89-906b-659cfe4ba66e",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Compare the effects, methods of transmission, and ways to fight the contagions o",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "#### Cackle Fever *Magical Contagion* Cheaply made potions and elixirs are somet",
+          "ground_truth_chunk_id": "dd600873-dde6-4488-9f97-c0e2212f041f",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "#### Sight Rot *Magical Contagion* Any Beast or Humanoid that drinks water taint",
+          "ground_truth_chunk_id": "b42dabce-4c87-4215-bf57-2d250f08c3fb",
+          "match_type": "FULL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Describe the different mechanisms by which the Guardian Naga, the Lich, and the ",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 1.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "**Celestial Restoration.** If the naga dies, it returns to life in 1d6 days and ",
+          "ground_truth_chunk_id": "7c7f0f4d-acc2-4fde-8e86-c7b077898cf5",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "**Spirit Jar.** If destroyed, the lich reforms in 1d10 days if it has a spirit j",
+          "ground_truth_chunk_id": "8ff6efa0-0e9d-450d-b4ec-cde5dbef9f38",
+          "match_type": "FULL",
+          "rank": 6
+        },
+        {
+          "passage_preview": "**Undead Restoration.** If destroyed, the mummy gains a new body in 24 hours if ",
+          "ground_truth_chunk_id": "8f7d2908-ffc4-414f-934e-6dc700571865",
+          "match_type": "FULL",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Explain the differences between a Narrative Curse and an Environmental Curse, us",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.5,
+      "passage_ranks": [
+        {
+          "passage_preview": "A curse might manifest during an adventure when a creature's violation of a tabo",
+          "ground_truth_chunk_id": "310d2a8e-fb30-4037-b1a3-5f88c1005135",
+          "match_type": "FULL",
+          "rank": 2
+        },
+        {
+          "passage_preview": "Some locations are so suffused with evil that anyone who lingers there is burden",
+          "ground_truth_chunk_id": "a44973ef-c6e7-4981-8c2f-088587c86d6c",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "How are the effects of multiple spells handled when they overlap, and what is th",
+      "status": "PASS",
+      "matched_count": 1,
+      "recalled_count": 1,
+      "recall_rate": 1.0,
+      "mrr": 1.0,
+      "passage_ranks": [
+        {
+          "passage_preview": "The effects of different spells add together while their durations overlap. In c",
+          "ground_truth_chunk_id": "e49f2c9f-272a-45a6-860c-daa3a7c5c8ba",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Compare the spells Protection from Energy, Protection from Evil and Good, and Pr",
+      "status": "PASS",
+      "matched_count": 3,
+      "recalled_count": 3,
+      "recall_rate": 1.0,
+      "mrr": 1.8333333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "## Protection from Energy *Level 3 Abjuration (Cleric, Druid, Ranger, Sorcerer, ",
+          "ground_truth_chunk_id": "6cb83e10-eba7-470c-8061-180188c6c229",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "## Protection from Evil and Good *Level 1 Abjuration (Cleric, Druid, Paladin, Wa",
+          "ground_truth_chunk_id": "83e4f40c-8e78-493f-845e-dfcbbe69af53",
+          "match_type": "FULL",
+          "rank": 1
+        },
+        {
+          "passage_preview": "## Protection from Poison *Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)* ",
+          "ground_truth_chunk_id": "012776cd-854d-49a9-acca-3298b09bff54",
+          "match_type": "FULL",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "How do the Thief Rogue's \"Fast Hands\" feature and the Sorcerer's \"Quickened Spel",
+      "status": "PASS",
+      "matched_count": 2,
+      "recalled_count": 2,
+      "recall_rate": 1.0,
+      "mrr": 1.3333333333333333,
+      "passage_ranks": [
+        {
+          "passage_preview": "### Level 3: Fast Hands As a Bonus Action, you can do one of the following. **Sl",
+          "ground_truth_chunk_id": "9d6a125c-c8af-417d-b392-095150d7d2d9",
+          "match_type": "FULL",
+          "rank": 3
+        },
+        {
+          "passage_preview": "### Quickened Spell *Cost: 2 Sorcery Points*  When you cast a spell that has a c",
+          "ground_truth_chunk_id": "3d4aa33d-1c06-4c17-88de-b6ac414cd2d5",
+          "match_type": "FULL",
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

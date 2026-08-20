@@ -1,0 +1,37 @@
+{
+  "total_nodes": 179,
+  "node_types": {
+    "document": 1,
+    "section": 43,
+    "chunk": 55,
+    "entity": 74,
+    "image": 6
+  },
+  "total_edges": 273,
+  "edge_types": {
+    "contains": 98,
+    "next": 54,
+    "mentions": 115,
+    "associated_with": 6
+  },
+  "chunk_stats": {
+    "count": 55,
+    "token_range": [
+      10,
+      509
+    ],
+    "avg_tokens": 193.9090909090909
+  },
+  "entity_stats": {
+    "total": 74,
+    "categories": {
+      "PER": 39,
+      "ORG": 25,
+      "LOC": 9,
+      "EMAIL": 1
+    }
+  },
+  "image_stats": {
+    "total": 6
+  }
+}

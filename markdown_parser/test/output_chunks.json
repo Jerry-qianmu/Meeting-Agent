@@ -1,0 +1,1828 @@
+[
+  {
+    "id": "chunk_1",
+    "content": "Jingkai Zhang<sup>1,2,3,‡</sup>, Si Hoi Kou<sup>1,2,3,‡</sup>, Jiulu Zhao<sup>1,2,3,4</sup>, Xiaomin Li<sup>1,2,3,4</sup>, Yongbing Zhao <sup>1,2,3,4,</sup>\\*\n<sup>1</sup>Center for Biomedical Digital Science, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, No. 190, Kaiyuan Avenue, Huangpu District, Guangzhou 510530, China\n<sup>2</sup>Guangdong Provincial Key Laboratory of Stem Cell and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, No. 190, Kaiyuan Avenue, Huangpu District, Guangzhou 510530, China\n<sup>3</sup>Guangdong-Hong Kong Joint Laboratory for Stem Cell and Regenerative Medicine, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, No. 190, Kaiyuan Avenue, Huangpu District, Guangzhou 510530, China\n<sup>4</sup>University of Chinese Academy of Sciences, No. 1, Yanqi Lake East Road, Huairou District, Beijing 100049, China\n\\*Corresponding author. Center for Biomedical Digital Science, Guangzhou Institutes of Biomedicine and Health, Chinese Academy of Sciences, No. 190, Kaiyuan Avenue, Huangpu District, Guangzhou 510530, China. E-mail: zhao\\_yongbing@gibh.ac.cn <sup>‡</sup>Jingkai Zhang and Si Hoi Kou contribute equally.",
+    "token_count": 377,
+    "start_pos": 0,
+    "end_pos": 1246,
+    "section_title": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+    "entities": [
+      {
+        "text": "JingkaiZhang",
+        "type": "PER",
+        "start": 0,
+        "end": 13,
+        "score": 0.9941692352294922,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "SiiKou",
+        "type": "PER",
+        "start": 33,
+        "end": 43,
+        "score": 0.930443525314331,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "JiuluZhao",
+        "type": "PER",
+        "start": 63,
+        "end": 73,
+        "score": 0.9980613589286804,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "XiaominLi",
+        "type": "PER",
+        "start": 93,
+        "end": 103,
+        "score": 0.9967526197433472,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "YongbingZhao",
+        "type": "PER",
+        "start": 123,
+        "end": 136,
+        "score": 0.9944242835044861,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "CenterforBiomedicalDigitalScience",
+        "type": "ORG",
+        "start": 171,
+        "end": 208,
+        "score": 0.9994279742240906,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangzhouInstitutesofBiomedicineandHealth",
+        "type": "ORG",
+        "start": 210,
+        "end": 256,
+        "score": 0.9988526105880737,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ChineseAcademyofSciences",
+        "type": "ORG",
+        "start": 258,
+        "end": 285,
+        "score": 0.9995334148406982,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "KaiyuanAvenue",
+        "type": "LOC",
+        "start": 296,
+        "end": 310,
+        "score": 0.999448835849762,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HuangpuDistrict",
+        "type": "LOC",
+        "start": 312,
+        "end": 328,
+        "score": 0.9927184581756592,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Guangzhou",
+        "type": "LOC",
+        "start": 330,
+        "end": 339,
+        "score": 0.9998985528945923,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "China",
+        "type": "LOC",
+        "start": 348,
+        "end": 353,
+        "score": 0.9999239444732666,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangdongProvincialKeyLaboratoryofStemCellandRegenerativeMedicine",
+        "type": "ORG",
+        "start": 366,
+        "end": 440,
+        "score": 0.9990857839584351,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangzhouInstitutesofBiomedicineandHealth",
+        "type": "ORG",
+        "start": 442,
+        "end": 488,
+        "score": 0.9985542893409729,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ChineseAcademyofSciences",
+        "type": "ORG",
+        "start": 490,
+        "end": 517,
+        "score": 0.9995225667953491,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "KaiyuanAvenue",
+        "type": "LOC",
+        "start": 528,
+        "end": 542,
+        "score": 0.9994262456893921,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HuangpuDistrict",
+        "type": "LOC",
+        "start": 544,
+        "end": 560,
+        "score": 0.9785041213035583,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Guangzhou",
+        "type": "LOC",
+        "start": 562,
+        "end": 571,
+        "score": 0.9998799562454224,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "China",
+        "type": "LOC",
+        "start": 580,
+        "end": 585,
+        "score": 0.9999138116836548,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Guangdong-HongKongJointLaboratoryforStemCellandRegenerativeMedicine",
+        "type": "ORG",
+        "start": 598,
+        "end": 674,
+        "score": 0.8231195211410522,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangzhouInstitutesofBiomedicineandHealth",
+        "type": "ORG",
+        "start": 676,
+        "end": 722,
+        "score": 0.9985601305961609,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ChineseAcademyofSciences",
+        "type": "ORG",
+        "start": 724,
+        "end": 751,
+        "score": 0.9991248250007629,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "KaiyuanAvenue",
+        "type": "LOC",
+        "start": 762,
+        "end": 776,
+        "score": 0.999630331993103,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HuangpuDistrict",
+        "type": "LOC",
+        "start": 778,
+        "end": 794,
+        "score": 0.9862515330314636,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Guangzhou",
+        "type": "LOC",
+        "start": 796,
+        "end": 805,
+        "score": 0.9998823404312134,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "China",
+        "type": "LOC",
+        "start": 814,
+        "end": 819,
+        "score": 0.9999227523803711,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "UniversityofChineseAcademyofSciences",
+        "type": "ORG",
+        "start": 832,
+        "end": 873,
+        "score": 0.9996311664581299,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "YanqiLakeEastRoad",
+        "type": "LOC",
+        "start": 882,
+        "end": 902,
+        "score": 0.9974257349967957,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HuairouDistrict",
+        "type": "LOC",
+        "start": 904,
+        "end": 920,
+        "score": 0.9697756767272949,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Beijing",
+        "type": "LOC",
+        "start": 922,
+        "end": 929,
+        "score": 0.9998995065689087,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "China",
+        "type": "LOC",
+        "start": 938,
+        "end": 943,
+        "score": 0.9998966455459595,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "CenterforBiomedicalDigitalScience",
+        "type": "ORG",
+        "start": 968,
+        "end": 1005,
+        "score": 0.9993124008178711,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangzhouInstitutesofBiomedicineandHealth",
+        "type": "ORG",
+        "start": 1007,
+        "end": 1053,
+        "score": 0.9989283680915833,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ChineseAcademyofSciences",
+        "type": "ORG",
+        "start": 1055,
+        "end": 1082,
+        "score": 0.9994605183601379,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "KaiyuanAvenue",
+        "type": "LOC",
+        "start": 1093,
+        "end": 1107,
+        "score": 0.9996688365936279,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HuangpuDistrict",
+        "type": "LOC",
+        "start": 1109,
+        "end": 1125,
+        "score": 0.9882838726043701,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Guangzhou",
+        "type": "LOC",
+        "start": 1127,
+        "end": 1136,
+        "score": 0.9998563528060913,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "China",
+        "type": "LOC",
+        "start": 1145,
+        "end": 1150,
+        "score": 0.9998914003372192,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "zhao\\_yongbing@gibh.ac.cn",
+        "type": "EMAIL",
+        "start": 1160,
+        "end": 1185,
+        "score": 1.0,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "JingkaiZhang",
+        "type": "PER",
+        "start": 1198,
+        "end": 1211,
+        "score": 0.9814607501029968,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "SiHoiKou",
+        "type": "PER",
+        "start": 1216,
+        "end": 1226,
+        "score": 0.9255366325378418,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "In single-cell transcriptomics, the accurate identification of cell-type-specific marker genes is fundamental for understanding cellular heterogeneity. However, existing approaches often rely on arbitrary thresholds and clustering heuristics, making them sensitive to noise, annotation bias, and prone to capturing highly expressed rather than truly specific genes. Here, we present scMarkerGene, an interpretable neural network framework for marker gene discovery. scMarkerGene constructs a Contribution Score (CS) matrix that quantitatively measures each gene’s influence on cell-type discrimination, transforming neural network predictions into gene-level importance signals. Through a downstream specificity filtering process, scMarkerGene robustly captures cell-type-distinguishing features and demonstrates strong robustness to dropout noise, diverse cell population sizes, varying annotation resolutions, and heterogeneous sequencing technologies. We comprehensively validated scMarkerGene across scRNA-seq datasets from multiple species, as well as on spatial transcriptomics and discretized pseudotime data, where it effectively identified dynamic and spatially resolved marker genes. Collectively, scMarkerGene provides an efficient, accurate, and interpretable framework for single-cell transcriptomic analysis, with broad potential for extension to multi-omics data integration and interpretation. The source code is available at https://scmarkergene.zhaopage.com/.",
+    "token_count": 253,
+    "start_pos": 0,
+    "end_pos": 1477,
+    "section_title": "Abstract",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Abstract",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Rapid advances in single-cell RNA sequencing (scRNA-seq) have enabled transcriptome-wide profiling at single-cell resolution, uncovering cellular heterogeneity, rare subpopulations, and lineage trajectories that are hidden in bulk analyses [1, 2]. As the scale of scRNA-seq studies expands, the identification of reliable marker genes has become central to analysis, enabling comprehensive profiling of cell types across nearly any tissue and species [3–5]. Marker genes are typically a small subset of genes whose expression profiles can distinguish the sub-populations of cells in a dataset. They serve as molecular signatures for defining cellular identity and states, provide the foundation for accurate cell type annotation, and facilitate the identification of disease-associated cell programs. Ideally, Marker genes should exhibit strong specificity-being highly expressed in one cell type while minimally expressed in others. Consequently, robust marker gene selection is a critical step in single-cell data analysis.",
+    "token_count": 184,
+    "start_pos": 0,
+    "end_pos": 1025,
+    "section_title": "Introduction",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Introduction",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "In our previous work, we explored explainable neural networks to improve interpretability in transcriptomic data analysis. We showed that gene contribution scores quantitatively capture each gene’s influence on model predictions, revealing biologically meaningful features such as tissue-specific genes and cancer biomarkers. However, explainability methods originally developed for computer vision often exhibited poor reproducibility on biological data due to the stochastic nature of neural network training and the complexity of gene expression distributions. To address this, we introduced a model aggregation strategy that stabilizes contribution scores across multiple independently trained models [14].",
+    "token_count": 113,
+    "start_pos": 1026,
+    "end_pos": 1736,
+    "section_title": "Introduction",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Introduction",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "We collected a total of 10 publicly available single-cell RNA sequencing (scRNA-seq) datasets spanning multiple species, tissues, and technologies (Supplementary Table 1). The datasets include arabidopsis leaf [15], arabidopsis root [16], drosophila heart [17], drosophila intestine [17], mouse myeloid [18], mouse cortex [19], human oral cavity [20], human carotid [21], human bone marrow [22], and human COVID-19 lung samples [23]. Sequencing technologies used include 10X Genomics, MARS-seq, SMART-Seq2, and single-nucleus RNA-seq. Cell numbers range from 2018 to 116 314, genes from 3451 to 53 678, and the number of annotated cell types ranges from 5 to 19. These datasets provide diverse transcriptional landscapes for evaluating marker gene identification and cell-type classification performance across species and platforms. In addition, we leveraged lineage datasets from the BEELINE benchmark [24] to assess marker gene performance along pseudotime trajectories, each providing (i) a gene-by-cell expression matrix and (ii) pseudotime assignments.",
+    "token_count": 246,
+    "start_pos": 0,
+    "end_pos": 1058,
+    "section_title": "scRNA-seq",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scRNA-seq",
+    "entities": [
+      {
+        "text": "BEELINE",
+        "type": "ORG",
+        "start": 886,
+        "end": 893,
+        "score": 0.9340715408325195,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "We used spatial transcriptomics datasets from 10x Genomics (https:// www.10xgenomics.com/), including FFPE mouse brain (CytAssist\\_FFPE\\_Mouse\\_Brain\\_Rep1; Date Published: 2022-07-14) and FFPE human melanoma (CytAssist\\_FFPE\\_Human\\_Skin\\_Melanoma; Date Published: 2022-07-13), both provided in HDF5 format. Supplemental files with graph-clustering results and spatial images were also retrieved for marker gene visualization.",
+    "token_count": 116,
+    "start_pos": 0,
+    "end_pos": 427,
+    "section_title": "Spatial transcriptome data",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Spatial transcriptome data",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "scMarkerGene preprocesses the input single-cell RNA-seq dataset according to its format. For raw count data, it performs TP10K normalization (transcripts per 10 000 reads), filters out genes that are expressed below 0.01 in more than 80% of the cells within each cell type, and then applies log2 transformation. For pre-normalized data (e.g. log-normalized CPM or Seurat’s NormalizeData output), it skips normalization and log transformation, and instead calculates the 25th percentile (Q1) of the non-zero expression values to use as the cutof. After filtering, for each retained gene, the mean and standard deviation across all cells are computed, and reference sample is generated by sampling from a normal distribution with these statistics. Small perturbations are added to the reference data to enhance variability. The reference sample is used as the background input for DeepLIFT [25]. Finally, for each cell type, the cells are split into training and testing sets at a 9:1 ratio for model training and evaluation.",
+    "token_count": 218,
+    "start_pos": 0,
+    "end_pos": 1023,
+    "section_title": "Data preparation",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Data preparation",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 0,
+        "end": 12,
+        "score": 0.98418128490448,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Seurat",
+        "type": "ORG",
+        "start": 364,
+        "end": 370,
+        "score": 0.9241142272949219,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To alleviate class imbalance during training, the training dataset is upsampled. Denote the number of cells in the largest cell type as $N _ { m a x } .$ For each underrepresented cell type c with $N _ { c }$ samples, the size is increased to $N _ { m a x }$ by first replicating the entire set of $\\mathrm { ~ N } _ { c }$ cells $[ N _ { m a x } / N _ { c } ]$ times, followed by randomly sampling the remaining $N _ { m a x }$ mod $N _ { c }$ cells from the original set to reach the target size. Small gaussian noise was added to the replicated samples.",
+    "token_count": 150,
+    "start_pos": 0,
+    "end_pos": 556,
+    "section_title": "Training set balancing by upsampling",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Training set balancing by upsampling",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Given the input expression matrix and the label vector, we construct a Multi-Layer Perceptron (MLP) consisting of l hidden layers to capture the non-linear dependencies among genes, thereby uncovering potential cell-type-specific marker gene. Each layer performs a linear transformation, followed by batch normalization (BatchNorm), a ReLU activation, and dropout. The computation in the i-th layer is defined as:\n\\mathrm{h} ^ {(\\mathrm{i})} = \\text {Dropout} \\left(\\operatorname{ReLU} \\left(\\operatorname{BatchNorm} \\left(\\mathrm{W} ^ {(\\mathrm{i})} \\mathrm{h} ^ {(\\mathrm{i} - 1)} + \\mathrm{b} ^ {(\\mathrm{i})}\\right)\\right)\\right), \\mathrm{i} = 1, \\dots , \\mathrm{l}.",
+    "token_count": 180,
+    "start_pos": 0,
+    "end_pos": 670,
+    "section_title": "Model architecture",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Model architecture",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "\\hat {\\mathbf {y}} = \\operatorname{Softmax} \\left(\\mathrm{W} ^ {(l + 1)} \\mathrm{h} ^ {(l)} + \\mathrm{b} ^ {(l + 1)}\\right).\n\n\\mathcal {L} = - \\sum_ {\\mathrm{c} = 1} ^ {\\mathrm{C}} \\mathrm{y} _ {\\mathrm{c}} \\log \\left(\\hat {\\mathrm{y}} _ {\\mathrm{c}}\\right),\nwhere $C$ is the number of classes, $y _ { c }$ is the one-hot encoded ground truth label, and y<sup>ˆ</sup> is the predicted probability for class c.",
+    "token_count": 156,
+    "start_pos": 671,
+    "end_pos": 1174,
+    "section_title": "Model architecture",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Model architecture",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "In our study, we found that hyperparameter tuning plays a crucial role in stabilizing the model’s generalization capability, which not only improves classification accuracy but also enhances the reliability of marker gene identification. To achieve this, we adopted the Optuna [26] framework for eficient and automated hyperparameter optimization. Based on our prior research, we defined the hyperparameter search space as follows: Hidden layers $\\in \\{ 1 , 2 , 3 \\}$ , Learning rate ∼ logUniform $\\left( 1 0 ^ { - 5 } , 1 0 ^ { - 3 } \\right)$ ,Hidden units ∼ Uniform 256, 512, Dropout rate ∼ Uniform 0.2, 0.3. The model architecture and training configuration were dynamically adjusted in each trial. Each model was trained for up to 50 epochs, with validation accuracy used as the objective metric. Optuna’s pruning mechanism was applied to terminate unpromising trials early based on intermediate validation accuracy. Across 30 optimization trials, the best-performing model was selected and its hyperparameters were saved.",
+    "token_count": 228,
+    "start_pos": 0,
+    "end_pos": 1026,
+    "section_title": "Hyperparameter optimization",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Hyperparameter optimization",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To enhance the robustness and stability of marker gene prediction, we implemented an ensemble learning strategy based on the optimal hyperparameters obtained from the previous search. Specifically, we used the best learning rate and dropout rate from the global search as anchors, and generated a set of refined candidate values by applying symmetric perturbations within a relative range. For learning rate, we generated 5 candidates within ±30% of the best value (controlled by –refine\\_lr\\_num and –refine\\_lr\\_ratio). Similarly, for dropout rate, we generated 3 candidates within ±10% of the best dropout rate (−-refine\\_dropout\\_num and –refine\\_dropout\\_ratio). This results in a grid of learning rate and dropout combinations, forming a set of diverse configurations around the optimal point. Let θ<sup>∗</sup>denote the best hyperparameter set obtained from the global optimization. The refined candidate set $\\{ \\theta _ { 1 } , \\theta _ { 2 } , \\ldots , \\theta _ { K } \\}$ is constructed by varying the learning rate and dropout around $\\theta ^ { * }$ , with $\\textrm { K } =$ refine\\_lr\\_num × refine\\_dropout\\_num = 15. Each candidate configuration was used to initialize and train a separate MLP<sub>k</sub> (· ; θ<sub>k</sub>).",
+    "token_count": 293,
+    "start_pos": 0,
+    "end_pos": 1242,
+    "section_title": "Ensemble model refinement",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Ensemble model refinement",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To identify the most influential genes contributing to classification decisions, we applied interpretation techniques to each gene in the model. Specifically, for each trained classifier model $M L P _ { k } \\left( \\cdot ; \\theta _ { k } \\right)$ we evaluated it on a pooled dataset and extracted attribution scores using DeepLIFT. The baseline input for attribution computation was defined following Shrikumar’s [25] formulation of reference inputs in DeepLIFT, where each gene expression value is assumed to follow a standard normal distribution, representing a ‘neutral’ state for every cell in the scRNA-seq input. For each model, an attribution matrix $A \\ \\in \\ \\mathbb { R } ^ { n \\times p }$ was generated, where n is the number of cells and $p$ is the number of genes. Each element $A _ { i j }$ quantifies the contribution of gene j to the prediction of cell i. To restrict the analysis to positively contributing marker genes, negative attribution values were removed by applying:\n\\mathrm{A} _ {\\mathrm{ij}} ^ {+} = \\max \\left(\\mathrm{A} _ {\\mathrm{ij}}, 0\\right).",
+    "token_count": 249,
+    "start_pos": 0,
+    "end_pos": 1075,
+    "section_title": "Calculate gene attribution",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Calculate gene attribution",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "\\mathrm{A} ^ {*} = \\frac {1}{\\mathrm{M}} \\sum_ {\\mathrm{m=1}} ^ {\\mathrm{M}} \\mathrm{A} _ {\\mathrm{m}} ^ {+}, \\mathrm{M} = 1 5.",
+    "token_count": 60,
+    "start_pos": 1076,
+    "end_pos": 1203,
+    "section_title": "Calculate gene attribution",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Calculate gene attribution",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "All ensemble models were trained using the Adam optimizer (initial learning rate = 0.01 × lr, weight decay = 0.001), with a 30-step linear warm-up and early stopping (patience = 5) based on improvements in training loss. The batch size was fixed at 1024.",
+    "token_count": 64,
+    "start_pos": 0,
+    "end_pos": 254,
+    "section_title": "Training strategy",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Training strategy",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To identify candidate marker genes with cell-type-specific contributions, we ranked genes according to their contribution scores derived from the consensus matrices. We first removed samples for which the predicted cell type did not match the true label, as these misclassified samples could not provide reliable gene contribution information. For each remaining cell type $^ { C , }$ we computed two statistics for each gene $g \\mathrm { : }$ the mean contribution score $\\mu _ { g } ^ { c }$ and the median contribution score $\\tilde { \\mu } _ { g } ^ { c }$ ,calculated over all samples of that cell type. A gene g was selected as a candidate marker for cell type c if it satisfied the following foldchange criteria against all other cell types $c ^ { \\prime } \\neq c \\mathrm { : }$\n\\forall \\mathsf {c} ^ {\\prime} \\neq \\mathsf {c}: \\mu_ {\\mathsf {g}} ^ {\\mathsf {c} ^ {\\prime}} <   \\mu_ {\\mathsf {g}} ^ {\\mathsf {c}} \\cdot \\mathbf {r} \\text {and} \\tilde {\\mu} _ {\\mathsf {g}} ^ {\\mathsf {c} ^ {\\prime}} <   \\tilde {\\mu} _ {\\mathsf {g}} ^ {\\mathsf {c}} \\cdot \\mathbf {r},\nwhere $r ~ \\in ~ \\{ 0 . 5 , 0 . 3 , 0 . 2 . 0 . 1 \\}$ represents progressively relaxed foldchange thresholds. Additionally, we required that gene $g$ show a suficiently high non-zero contribution frequency in cell type c, based on a preset threshold. Genes passing both the fold-change and nonzero frequency criteria were ranked by their median and mean contribution scores, and the top N genes were selected as candidate markers. If fewer than genes passed under the strictest criteria, we gradually loosen the fold-change and non-zero thresholds until enough candidates were identified.",
+    "token_count": 428,
+    "start_pos": 0,
+    "end_pos": 1662,
+    "section_title": "Putative gene selection based on contribution scores",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Putative gene selection based on contribution scores",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "In our approach, the contribution score quantifies the relative influence of a gene $g$ on the classifier’s predictive performance, i.e. how much it aids in distinguishing the target cell type. While informative, a high contribution score does not necessarily imply that gene g exhibits strong expression specificity or statistical separability between the target and non-target populations. To refine the set of candidate marker genes identified previously, we developed a multi-step selection strategy that integrates expression specificity.\n\n\\mathrm{S} _ {\\mathrm{x}} \\left(\\mathrm{g}, \\mathrm{c}\\right) = \\log_ {2} \\frac {\\mathrm{E} _ {\\mathrm{x}} \\left(\\mathrm{g} , \\mathrm{c}\\right) + \\epsilon}{\\sum_ {\\mathrm{c} ^ {\\prime} \\neq \\mathrm{c}} \\mathrm{E} _ {\\mathrm{x}} \\left(\\mathrm{g} , \\mathrm{c} ^ {\\prime}\\right) + \\epsilon},\nwhere $E _ { x } \\left( g , c \\right)$ denotes the expression statistic of gene g in a cell type c, and  is a small constant. After Min-Max normalization:\n\\hat {S} _ {\\mathrm{x}} \\left(\\mathrm{g}, \\mathrm{c}\\right) = \\frac {S _ {\\mathrm{x}} \\left(\\mathrm{g} , \\mathrm{c}\\right) - \\min \\left(S _ {\\mathrm{x}}\\right)}{\\max \\left(S _ {\\mathrm{x}}\\right) - \\min \\left(S _ {\\mathrm{x}}\\right) + \\epsilon}.",
+    "token_count": 343,
+    "start_pos": 0,
+    "end_pos": 1233,
+    "section_title": "Marker gene selection with expression pattern filtering",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "\\text {Specificity} (\\mathrm{g}, \\mathrm{c}) = \\sum_ {\\mathrm{x} \\in \\{\\mu , \\mathrm{m}, \\mathrm{f} \\}} \\hat {\\mathrm{S}} _ {\\mathrm{x}} (\\mathrm{g}, \\mathrm{c}).\n\n\\mathrm{M} \\left(\\mathrm{g}, \\mathrm{c}\\right) = \\text {Specificity} \\left(\\mathrm{g}, \\mathrm{c}\\right) \\cdot \\sigma \\left(\\mathrm{g}, \\mathrm{c}\\right).",
+    "token_count": 123,
+    "start_pos": 1488,
+    "end_pos": 1878,
+    "section_title": "Marker gene selection with expression pattern filtering",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_3",
+    "content": "\\mathrm{E} _ {\\mathrm{x}} (\\mathrm{g}, \\mathrm{c}) > \\alpha \\cdot \\max _ {\\mathrm{c} ^ {\\prime} \\neq \\mathrm{c}} \\mathrm{E} _ {\\mathrm{x}} \\left(\\mathrm{g}, \\mathrm{c} ^ {\\prime}\\right), \\forall \\mathrm{x} \\in \\{\\mu , \\mathrm{m}, \\mathrm{f} \\}.",
+    "token_count": 97,
+    "start_pos": 1977,
+    "end_pos": 2221,
+    "section_title": "Marker gene selection with expression pattern filtering",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "We generated synthetic single-cell expression datasets of varying scales to benchmark marker gene identification. Each dataset contained $N = G \\ \\in$ 400, 600, 800, 1000 cells and genes, distributed evenly across $L = 5$ cell types.",
+    "token_count": 55,
+    "start_pos": 0,
+    "end_pos": 233,
+    "section_title": "Synthetic data generation",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Synthetic data generation",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "All genes were initialized with low-level background expression across all cells. Counts were drawn from a negative binomial distribution:\n\\mathrm{X} \\sim \\mathrm{NB} (\\mu , \\mathbf {r}),\nwith mean $\\mu = 1 . 0$ and dispersion $r = 0 . 5 .$",
+    "token_count": 66,
+    "start_pos": 0,
+    "end_pos": 240,
+    "section_title": "Background expression",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Background expression",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "For each cell type, 30 marker genes were introduced (10 per category), with distinct expression rules:\nType I (Specific-high): Highly expressed in all cells of one target cell type, sampled from $[ \\mathrm { N B } ( \\mu = 3 . 0 , r = 0 . 5 ) ]$ , while other cell types remained at background level.\n• Type II (Specific-partial): Highly expressed in ∼80% of cells within the target cell type, sampled from $[ \\mathrm { N B } ( \\mu = 3 . 0 , r = 0 . 5 ) ]$ . The remaining ∼20% of cells in the same type, as well as all other cell types, remained at background levels.\n• Type III (Non-specific): Strongly expressed in the target cell type $[ \\mathrm { N B } ( \\mu = 6 . 0 , r = 0 . 5 ) ]$ , with weak expression introduced in $2 { - 3 }$ other randomly selected cell types $[ \\mathrm { N B } ( \\mu = 4 . 0 , r = 0 . 5 ) ]$ ; remaining cells stayed at background.\n• Additionally, two classes of global markers were added across all cell types:\n• Type IV (Global-low, 50 genes): Weakly expressed in all cells [NB(μ = 0.5, r = 0.5)].\n• Type IV (Global-high, 50 genes): Strongly expressed in all cells $\\mathrm { N B } ( \\mu = 3 . 0 , r = 0 . 5 ) ]$",
+    "token_count": 348,
+    "start_pos": 0,
+    "end_pos": 1144,
+    "section_title": "Marker gene classes",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene classes",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To assess how contribution scores relate to gene expression and celltype specificity, we performed correlation analyses using group-wise expression levels and log2 fold-change (log2FC). For each cell type, top 10 genes by contribution scores were selected as marker genes, and 1000 background genes were randomly sampled from the expression matrix.",
+    "token_count": 65,
+    "start_pos": 0,
+    "end_pos": 348,
+    "section_title": "Correlation analysis of contribution scores with expression levels and log2FC",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Correlation analysis of contribution scores with expression levels and log2FC",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "For each cell, we computed the Pearson correlation between contribution scores and expression values restricted to either top-N genes by contribution scores or random genes. This produced a distribution of cell-wise correlation values.",
+    "token_count": 38,
+    "start_pos": 0,
+    "end_pos": 235,
+    "section_title": "Cell-level analysis",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Cell-level analysis",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "For each gene, we computed two Pearson correlation coeficients across groups: (i) between its group-wise median expression profile and its profile of contribution scores, and (ii) between its log2FC profile and its profile of contribution scores.",
+    "token_count": 48,
+    "start_pos": 0,
+    "end_pos": 246,
+    "section_title": "Gene-level analysis",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Gene-level analysis",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "For each group, Pearson correlations between contribution scores and either median expression or log2FC were calculated separately for the top-N genes by contribution scores and the background genes. The correlation r diference was defined as\n\\text {delta\\_cor} = r _ {\\text {top CS}} - r _ {\\text {background}},\nwhere positive delta\\_cor values indicate that top-N genes by contribution scores have stronger associations with contribution scores than background genes.",
+    "token_count": 90,
+    "start_pos": 0,
+    "end_pos": 469,
+    "section_title": "Group-level analysis",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Group-level analysis",
+    "entities": [
+      {
+        "text": "Pearson",
+        "type": "PER",
+        "start": 16,
+        "end": 23,
+        "score": 0.5017566084861755,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "This study compared nine commonly used methods for cell marker gene identification. For scanpy [6], raw expression data were normalized using sc.pp.normalize\\_total and log-transformed with sc.pp.log1p, followed by Wilcoxon rank-sum testing with tl.rank\\_gene\\_ groups. scMAGs [7] (https://github.com/doganlab/scmags) and SMaSH [27] (https://gitlab.com/cvejic-group/smash) were executed strictly following their oficial example codes. For NsForest 4.0 [13], since its default pipeline outputs gene sets of varying sizes, we modified the myDecisionTreeEvaluation function. Specifically, all possible three-gene subsets were evaluated, their classification performance quantified by the $\\mathrm { F } _ { \\beta }$ -score, and the subset with the highest $\\operatorname { F } _ { \\beta ^ { - } }$ score was selected as the marker gene set for the corresponding cell type, thereby restricting the output to exactly three genes per cell type. For scGeneFit [8] and MarkerMap [10] (https://github.com/ Computational-Morphogenomics-Group/MarkerMap.git), we set the parameter num\\_markers to ‘number of cell types $\\times 3 ^ { \\circ } ,$ , ensuring that each cell type yielded three marker genes. For scVI/scANVI [11] and Memento [28],we followed the respective oficial tutorials and ranked the output genes based on the ‘bayes\\_factor’ and ‘de\\_pval’ metrics as provided by each method. With these adjustments, all methods were benchmarked under a consistent Top3 marker gene level. All methods were applied directly to the raw gene expression matrix as input.",
+    "token_count": 363,
+    "start_pos": 0,
+    "end_pos": 1555,
+    "section_title": "Methods compared with scMarkerGene",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Methods compared with scMarkerGene",
+    "entities": [
+      {
+        "text": "Computational-Morphogenomics-Group",
+        "type": "ORG",
+        "start": 997,
+        "end": 1031,
+        "score": 0.7576401829719543,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To assess the performance of diferent marker gene selection methods, we introduced log2 fold-change as a key metric. The log 2FC quantifies the relative upregulation of a gene in a target cell type compared with all other cell types:\n\\log 2 \\mathrm{FC} = \\log_ {2} \\left(\\frac {\\exp_ {\\text {target}} + \\epsilon}{\\exp_ {\\text {others}} + \\epsilon}\\right),\nwhere $\\mathrm { e x p } _ { \\mathrm { t a r g e t } }$ and $\\boldsymbol { \\mathrm { e x p } } _ { \\mathrm { o t h e r s } }$ denote the mean expression in the target and non-target cell types.",
+    "token_count": 158,
+    "start_pos": 0,
+    "end_pos": 549,
+    "section_title": "Performance metrics",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance metrics",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "The normalized Z-score is another metric to assess marker gene specificity, alongside the log2FC. This is computed by first calculating the mean and standard deviation of the gene’s expression across all nontarget cell types. The formulas for the Z-score and normalized Z-score are:\n\\begin{array}{c} \\text {Z - score} = \\frac {\\exp_ {\\text {target}} + \\exp_ {\\text {others}}}{\\sigma_ {\\text {others}} + \\epsilon}, \\\\ \\text {Normalized Z - score} = \\left\\{ \\begin{array}{l l} 0, & \\text {Z - score} \\leq 0 \\\\ \\log_ {1 0} \\left(\\text {Z - score} + 1\\right), & \\text {Z - score} > 0 \\end{array} \\right. \\end{array}\nwhere $\\mathrm { e x p } _ { \\mathrm { t a r g e t } }$ and $\\mathsf { e x p } _ { \\mathsf { o t h e r s } }$ are the mean expressions in the target and non-target cell types, and $\\sigma _ { 0 } \\mathrm { { t h e r s } } ^ { \\mathrm { { i s } } }$ the standard deviation across non-target types. To ensure numerical stability, we add a small epsilon value.",
+    "token_count": 298,
+    "start_pos": 0,
+    "end_pos": 969,
+    "section_title": "Normalized Z-score",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Normalized Z-score",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To assess the accuracy of diferent models in identifying the simulated cell-type-specific markers, we calculated the F1-score between each model’s top 20 predicted genes and the ground truth set of 20 marker genes. This metric provides a balanced evaluation of precision and recall in marker gene identification. The F1-score is defined as:\n\\text {F1 - score} = \\left(\\frac {2 \\times \\text {Precision} \\times \\text {Recall}}{\\text {Precision} + \\text {Recall}}\\right),\n\\text {Precision} = \\left(\\frac {\\mathrm{TP}}{\\mathrm{TP} + \\mathrm{FP}}\\right)\n\\text {Recall} = \\left(\\frac {\\mathrm{TP}}{\\mathrm{TP} + \\mathrm{FN}}\\right),\nwhere TP (True Positives) denotes the number of correctly predicted marker genes, FP (False Positives) denotes the number of incorrectly predicted non-marker genes, and FN (False Negatives) denotes the number of missed true marker genes.",
+    "token_count": 218,
+    "start_pos": 0,
+    "end_pos": 864,
+    "section_title": "F1-score",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > F1-score",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "We performed principal component analysis (PCA) on the expression/attribution matrices using sc.tl.pca, followed by neighborhood graph construction with sc.pp.neighbors and UMAP embedding via sc.tl.umap. For t-distributed stochastic neighbor embedding (t-SNE), the perplexity parameter was set to 30. The resulting two-dimensional embeddings were visualized using either sc.pl.umap or sns.scatterplot.",
+    "token_count": 82,
+    "start_pos": 0,
+    "end_pos": 401,
+    "section_title": "Dimensionality reduction and visualization",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Dimensionality reduction and visualization",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "The detailed workflow of scMarkerGene is outlined in the Methods section and illustrated in Fig. 1, which is roughly consisted of two steps. In the step 1, scMarkerGene calculated the importance (a.k.a contribution score) of each gene in a specific cell type based on ensembled interpretable neural network models. In the step 2, top-N most important genes are extracted as putative markers based on their contribution score in each cell population, and then re-ranked by marker scores. A single machine learning model often yields inconsistent and potentially biased results, and thus relying on a single interpretation is inherently unreliable [29]. Building on the ensemble modeling strategy established in our previous work [14], scMarkerGene further advances the framework by incorporating automatic hyperparameter optimization using Optuna [26]. Applied to Mouse\\_cortex and Human\\_carotid datasets, the optimized ensemble markedly improved cell type classification accuracy and generalization compared with a non-optimized baseline (Supplementary Fig. 1A). Visualization of misclassified cells across 15 ensemble models showed a reduction from 413 to 23 errors (Supplementary Fig. 1B–C), underscoring the benefit of automated hyperparameter tuning for both accuracy and reliability.",
+    "token_count": 249,
+    "start_pos": 0,
+    "end_pos": 1289,
+    "section_title": "scMarkerGene workflow overview",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scMarkerGene workflow overview",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 25,
+        "end": 37,
+        "score": 0.9973539113998413,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Methods",
+        "type": "ORG",
+        "start": 57,
+        "end": 64,
+        "score": 0.6568015217781067,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 156,
+        "end": 168,
+        "score": 0.9971941709518433,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 734,
+        "end": 746,
+        "score": 0.9977279305458069,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "To explore the relationship between contribution scores and transcriptional features, we quantified their correlations with gene expression at multiple resolutions—including single-cell, gene, and cell-type levels—allowing comparison between raw expression and log2 fold-change (log2FC) across cell types. Top 10 genes ranked by contribution scores are correlated more strongly with expression than random genes and showed tighter association withlog2FC across cell types than with raw expression in specific cell type (Supplementary Fig. 3A–B). Across cell types, delta\\_cor were consistently higher for log2FC (Supplementary Fig. 3C), indicating that contribution scores preferentially capture relative expression specificity across cell types. Thus, contribution scores provide a robust basis for identifying cell-type-specific marker genes in scMarkerGene.",
+    "token_count": 158,
+    "start_pos": 1290,
+    "end_pos": 2150,
+    "section_title": "scMarkerGene workflow overview",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scMarkerGene workflow overview",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To systematically benchmark the performance of scMarkerGene, we compared it against nine widely used marker gene detection methods, including scMAGs, scanpy, SMaSH, NsForest, scGeneFit, MarkerMap, scVI/scANVI, and Memento, spanning both statistical approaches and machine learning-based methods. As illustrated in Fig. 2A, scMarker-Gene identified marker genes with substantially higher expression specificity, achieving a clearer separation between target and nontarget cell populations in the Human\\_carotid dataset [21].",
+    "token_count": 111,
+    "start_pos": 0,
+    "end_pos": 523,
+    "section_title": "Performance assessment of methods for cell-type-specific marker gene identification",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance assessment of methods for cell-type-specific marker gene identification",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "Building on the initial comparison, we further extended the benchmarking to eight diverse single-cell transcriptome datasets, spanning mouse, human, fly, and arabidopsis [15–17, 19–22]. Across all datasets, scMarkerGene consistently outperformed other methods (Fig. 2C). Notably, NsForest failed to identify marker genes in 3 out of 8 datasets, underscoring its limited applicability and leading to its exclusion from further analyses. scANVI, a semi-supervised variant of scVI, was retained for further evaluation [30]. This crossdataset consistency demonstrates the robustness of scMarkerGene in handling biological variability, sequencing noise, and dataset complexity. Together, these results establish scMarkerGene as a reliable and specific tool for marker gene detection across species.",
+    "token_count": 164,
+    "start_pos": 524,
+    "end_pos": 1317,
+    "section_title": "Performance assessment of methods for cell-type-specific marker gene identification",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance assessment of methods for cell-type-specific marker gene identification",
+    "entities": [
+      {
+        "text": "MarkerMap",
+        "type": "ORG",
+        "start": 840,
+        "end": 849,
+        "score": 0.5329834818840027,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To further benchmark scMarkerGene, we designed a simulation framework incorporating five distinct gene expression patterns with representative profiles shown in Fig. 3A. Among these genes, Type I and II represent cell-type specific marker genes, with Type I highly expressed in all cells of given cell population, whereras Type II is highly expressed in only 80% of the cells. For evaluation, we compared the top 20 ranked markers identified by each method against these two types of high-specificity markers using F1-score. The result shows that scMarkerGene consistently achieved the highest F1- scores across 16 simulated datasets varying in cell and gene numbers (Fig. 3B). Averaged across all datasets, scMarkerGene reached to 0.992 for Type I and 0.938 for Type II, substantially outperforming all other methods (Fig. 3C, top). Moreover, scMarkerGene efectively filtered out the non-specific Type III genes (F1-score = 0.173). In contrast, scanpy showed the greatest tolerance to Type III genes, likely because their abnormally elevated expression in target populations masked their lack of specificity, leading to misleadingly low P-values.",
+    "token_count": 243,
+    "start_pos": 0,
+    "end_pos": 1147,
+    "section_title": "Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 21,
+        "end": 33,
+        "score": 0.9298964738845825,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 547,
+        "end": 559,
+        "score": 0.9924173355102539,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "sc",
+        "type": "ORG",
+        "start": 708,
+        "end": 710,
+        "score": 0.6960577368736267,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 844,
+        "end": 856,
+        "score": 0.9889999032020569,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "We further evaluated the robustness of diferent methods under sparse data conditions by systematically introducing dropout noise (10%–40%) into Type I and Type II expression matrices. scMarkerGene consistently achieved superior F1-scores across nearly all noise levels, reflected in its high performance on Type I/II matrices while maintaining low scores on Type III. In contrast, SMaSH—another deeplearning interpretability-based approach—exhibited a pronounced decline in performance with increasing noise (Fig. 3C, bottom). These results demonstrate that scMarkerGene retains robust performance under sparse data conditions, a common challenge in real scRNA-seq datasets, and underscores its reliability in identifying genuinely celltype-specific markers.",
+    "token_count": 142,
+    "start_pos": 1148,
+    "end_pos": 1906,
+    "section_title": "Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1333,
+        "end": 1345,
+        "score": 0.9943695664405823,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "SMaSH",
+        "type": "ORG",
+        "start": 1530,
+        "end": 1535,
+        "score": 0.9969046711921692,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1707,
+        "end": 1719,
+        "score": 0.9908885955810547,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "To evaluate the robustness of scMarkerGene across diferent celltype annotation resolutions, we compared its performance with scANVI, scanpy, scMAGs, and SMaSH on the Bone marrow organoids (BMO) dataset. At the coarse cell-type level, expression heatmaps (Supplementary Fig. 4) revealed that scMarkerGene, scANVI, scanpy, and scMAGs all identified cell type-specific markers with comparable efectiveness, efectively capturing the major populations. By contrast, the markers identified by SMaSH showed weaker cell-type specificity, consistent with its inferior performance observed in Fig. 2. At the sub cell-type level, where finer population distinctions make classification more challenging, scMarkerGene not only revealed clearer and more distinct expression patterns (Supplementary Fig. 5) but also achieved the highest specificity across most cell types at both coarse (Fig. 4A, top) and sub (Fig. 4A, bottom) resolutions, outperforming competing methods. We further quantified marker specificity in relation to population size by stratifying subpopulations into ‘small’ (≤100 cells) and ‘large’ (>100 cells). Even within small populations with limited statistical power, scMarkerGene maintained the highest log2FC (Fig. 4B), demonstrating its robustness across heterogeneous group sizes.",
+    "token_count": 278,
+    "start_pos": 0,
+    "end_pos": 1292,
+    "section_title": "Robustness of scMarkerGene in marker gene identification across cell population scales",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Robustness of scMarkerGene in marker gene identification across cell population scales",
+    "entities": [
+      {
+        "text": "s",
+        "type": "ORG",
+        "start": 30,
+        "end": 31,
+        "score": 0.5585777759552002,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "SMSH",
+        "type": "ORG",
+        "start": 487,
+        "end": 492,
+        "score": 0.6514679193496704,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 693,
+        "end": 705,
+        "score": 0.9548184275627136,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1176,
+        "end": 1188,
+        "score": 0.9592569470405579,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "\nPerformance evaluation of marker detection methods across sub-sampling\n\nTogether, these findings demonstrate that scMarkerGene not only delivers superior performance across annotation resolutions, but also retains robustness under limited cell numbers. This dual robustness— across both annotation granularity and population scale—highlights the generalizability of scMarkerGene for diverse single-cell analysis scenarios.",
+    "token_count": 70,
+    "start_pos": 1293,
+    "end_pos": 2573,
+    "section_title": "Robustness of scMarkerGene in marker gene identification across cell population scales",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Robustness of scMarkerGene in marker gene identification across cell population scales",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1895,
+        "end": 1907,
+        "score": 0.9681597948074341,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Unlike single-cell transcriptomics, where cell type annotations are readily available, spatial transcriptomics relies on spatial coordinates or other prior information, such as known marker genes, histological features, or tissue architecture, to define clusters [32]. To assess the performance of scMarkerGene on sequencing-based spatial transcriptomics data, we applied it to two 10X Visium datasets. We compared five methods on a mouse brain tissue dataset, with each method selecting the top marker gene for each cluster (Fig. 5). For cluster 4, which spans a large spatial region but contains relatively few peripheral cells, scMarkerGene and scANVI identified Cst3 as the most spatially specific marker. In contrast, for cluster 5, scanpy was confounded by ‘highly expressed but non-specific’ signals, consistent with our observations in the simulated datasets. For cluster 6, the marker gene Arhgap36 identified by scMarkerGene exhibited higher spatial specificity than those detected by the competing methods. In another dataset from human skin melanoma, marker genes identified by scMarkerGene also displayed strong spatial localization (Supplementary Fig. 7). Together, these results demonstrate that scMarkerGene efectively leverage prior annotations to identify markers that capture both spatial and cluster specificity.",
+    "token_count": 255,
+    "start_pos": 0,
+    "end_pos": 1332,
+    "section_title": "Identification of marker genes in spatial transcriptomics data using scMarkerGene",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Identification of marker genes in spatial transcriptomics data using scMarkerGene",
+    "entities": [
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 298,
+        "end": 310,
+        "score": 0.8624556660652161,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 631,
+        "end": 643,
+        "score": 0.9183882474899292,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scAN",
+        "type": "ORG",
+        "start": 648,
+        "end": 652,
+        "score": 0.5655837059020996,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 922,
+        "end": 934,
+        "score": 0.9562956094741821,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1090,
+        "end": 1102,
+        "score": 0.9736315608024597,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "scMarkerGene",
+        "type": "ORG",
+        "start": 1211,
+        "end": 1223,
+        "score": 0.9826950430870056,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "In single-cell pseudotime analysis, marker gene selection is typically based on correlations between gene expression and pseudotime (commonly inferred using methods such as Monocle3) [33] or on discretizing pseudotime into early/mid/late phases, followed by diferential expression analysis [34]. We collected datasets from the BEELINE benchmark, where scRNA-seq samples are provided with developmental pseudotime. We first performed uniform discretization of pseudotime. It is important to note that although this binning procedure results in varying numbers of cells per bin, it ensures minimal temporal diferences among cells within the same bin. The continuous pseudotime annotations of the mHSC-E dataset (Mouse Hematopoietic Stem Cells, Erythroid lineage) were discretized into five bins (phases 1–5) using the pandas.cut function",
+    "token_count": 173,
+    "start_pos": 0,
+    "end_pos": 835,
+    "section_title": "Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "PseudoTime\n(Fig. 6A). Figure 6B displays the pseudotime-dependent dynamics of the contribution scores for bin-specific marker genes predicted by scMarkerGene. We further compared scMarkerGene with scANVI, scanpy, scMAGs, and SMaSH in predicting phase-specific marker genes (Fig. 6C). The results show that markers selected by scMarkerGene exhibit higher specificity within the target bin, whereas other tools produced markers with varying degrees of expression outside the intended phase. For example, scanpy predicted APOE in bin 3 and scMAGs predicted NAB1 in bin 4, both of which displayed expression beyond their designated pseudotime phases. Additionally, we compared scMarkerGene with other competing methods under diferent numbers of bins (3, 5, 7). Supplementary Fig. 8 demonstrates that the top-three genes identified by scMarkerGene achieve the highest log2FC values across all bin resolutions (3 bins: 2.155; 5 bins: 2.171; 7 bins: 1.763) compared to all other evaluated tools.",
+    "token_count": 231,
+    "start_pos": 836,
+    "end_pos": 1824,
+    "section_title": "Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+    "entities": [
+      {
+        "text": "scMene",
+        "type": "ORG",
+        "start": 1667,
+        "end": 1679,
+        "score": 0.5264982581138611,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Marker gene identification remains fundamental to single-cell analysis, because it anchors cell identity and functional interpretation. Our study emphasizes that, beyond detecting marker genes, the order in which candidate genes are presented is decisive, especially for non-specialists who often heavily rely on top-list. However, existing ranking-based marker selection methods have limitations: scanpy can be skewed toward highly expressed but non-specific genes, while deep learning-based approaches such as SMaSH, despite conceptual similarities, often yield unstable rankings due to oversimplified training strategies and limited interpretability, especially in small or heterogeneous datasets.",
+    "token_count": 114,
+    "start_pos": 0,
+    "end_pos": 700,
+    "section_title": "Discussion",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Discussion",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "The integration of contribution scores, ensemble learning, hyperparameter optimization, and specificity-based marker ranking confers scMarkerGene with robustness and facilitates the identification of highly cell-type-specific marker genes. Validation across diverse datasets, including spatial transcriptomics and discretized pseudotime trajectories, demonstrated that scMarkerGene can reliably extract celltype-specific or phase-specific markers.\n\nIn summary, scMarkerGene ofers a transparent, reproducible, and generalizable framework for marker gene identification. By leveraging contribution scores to guide candidate selection and ranking, it combines interpretability with strong predictive performance. With future extensions toward multi-omics and regulatory modeling, scMarkerGene could evolve into a comprehensive platform for dissecting cellular heterogeneity and transcriptional regulation at single-cell resolution.",
+    "token_count": 148,
+    "start_pos": 701,
+    "end_pos": 2039,
+    "section_title": "Discussion",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Discussion",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "• An explainable model that quantitatively links cell-type decisions to gene-level contributions.\n• Identifies true cell-specific markers rather than genes driven by high expression or noise.\n• Reliable marker detection across species, spatial and trajectory data, and diverse annotations.",
+    "token_count": 51,
+    "start_pos": 0,
+    "end_pos": 289,
+    "section_title": "Key Points",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Key Points",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Y.Z. conceived and supervised the project. J.K.Z., S.H.K., and Y.Z. designed and implemented the algorithm. J.K.Z., S.H.K., J.L.Z., and X.L. performed data analysis. J.K.Z., S.H.K., and Y.Z. wrote the manuscript. All authors discussed results and approved the final manuscript.",
+    "token_count": 73,
+    "start_pos": 0,
+    "end_pos": 277,
+    "section_title": "Author contributions",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Author contributions",
+    "entities": [
+      {
+        "text": "Y.Z.",
+        "type": "PER",
+        "start": 0,
+        "end": 4,
+        "score": 0.9946091175079346,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "J.K.Z.",
+        "type": "PER",
+        "start": 43,
+        "end": 49,
+        "score": 0.9667358994483948,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "S.H.K.",
+        "type": "PER",
+        "start": 51,
+        "end": 57,
+        "score": 0.9646440148353577,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Y.Z.",
+        "type": "PER",
+        "start": 63,
+        "end": 67,
+        "score": 0.9884993433952332,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "J.K.Z.",
+        "type": "PER",
+        "start": 108,
+        "end": 114,
+        "score": 0.9392595887184143,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "S.H.K.",
+        "type": "PER",
+        "start": 116,
+        "end": 122,
+        "score": 0.977642297744751,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "J.L.Z.",
+        "type": "PER",
+        "start": 124,
+        "end": 130,
+        "score": 0.987183690071106,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "X.L.",
+        "type": "PER",
+        "start": 136,
+        "end": 140,
+        "score": 0.9954531192779541,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "J.K.Z.",
+        "type": "PER",
+        "start": 166,
+        "end": 172,
+        "score": 0.9489213228225708,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "S.H.K.",
+        "type": "PER",
+        "start": 174,
+        "end": 180,
+        "score": 0.9565205574035645,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Y.Z.",
+        "type": "PER",
+        "start": 186,
+        "end": 190,
+        "score": 0.9931163787841797,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "Supplementary material is available at Briefings in Bioinformatics online.",
+    "token_count": 13,
+    "start_pos": 0,
+    "end_pos": 74,
+    "section_title": "Supplementary material",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Supplementary material",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "The authors have no conflicts of interest to declare.",
+    "token_count": 10,
+    "start_pos": 0,
+    "end_pos": 53,
+    "section_title": "Conflicts of interest",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Conflicts of interest",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "This work was supported by the National Key Research and Development Program of China (grant no. 2024YFA1802300 to Y.Z.), Science and Technology Planning Project of Guangdong Province (grant no. 2023QN10X323, 2023ZT10Y154, 2023B1212060050, 2023B1212120009 to Y.Z.).",
+    "token_count": 81,
+    "start_pos": 0,
+    "end_pos": 265,
+    "section_title": "Funding",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Funding",
+    "entities": [
+      {
+        "text": "NationalKeyResearchandDevelopmentProgramChina",
+        "type": "ORG",
+        "start": 31,
+        "end": 85,
+        "score": 0.8597013354301453,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ScienceandTechnologyPlanningProject",
+        "type": "ORG",
+        "start": 122,
+        "end": 161,
+        "score": 0.9713020920753479,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "GuangdongProvinceZ",
+        "type": "LOC",
+        "start": 165,
+        "end": 262,
+        "score": 0.7653104066848755,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "The source code and detailed instructions for using scMarkerGene are publicly available at https://scmarkergene.zhaopage.com. All experiments in this study were implemented using Python 3.12.12. The computational framework relies on the following libraries: pandas 2.3.3, captum 0.7.0, optuna 4.6.0, scikit-learn 1.7.2. Deep learning models were trained using PyTorch 2.5.1 with CUDA 12.0 acceleration on an GeForce RTX 4090 GPU. All computations were performed on a Linuxbased workstation. All scRNA-seq datasets used in this study are listed with their sources in Supplementary Table 1. Spatial transcriptome and lineage datasets can be accessed as described in the Methods section.",
+    "token_count": 168,
+    "start_pos": 0,
+    "end_pos": 684,
+    "section_title": "Code and data availability",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Code and data availability",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_1",
+    "content": "1. Stuart T, Butler A, Hofman P et al. Comprehensive integration of single-cell data. Cell 2019;177:1888–1902. e21. https://doi. org/10. 1016/j. cell. 2019. 05. 031\n2. Svensson V, da Veiga Beltrame E, Pachter L. A curated database reveals trends in single-cell transcriptomics. Database (Oxford) 2020;2020:baaa073. https://doi. org/10. 1093/database/baaa073\n3. Han X, Wang R, Zhou Y et al. Mapping the mouse cell atlas by microwell-Seq. Cell 2018;173:1307. https://doi. org/10. 1016/j. cell. 2018. 05. 012\n4. He Z, Luo Y, Zhou X et al. scPlantDB: a comprehensive database for exploring cell types and markers of plant cell atlases. Nucleic Acids Res 2024;52:D1629–38. https://doi. org/10. 1093/nar/gkad706\n5. Cao J, Packer JS, Ramani V et al. Comprehensive single-cell transcriptional profiling of a multicellular organism. Science 2017;357:661–7. https://doi. org/10. 1126/science. aam8940\n6. Wolf FA, Angerer P, Theis FJ. SCANPY: Large-scale single-cell gene expression data analysis. Genome Biol 2018;19:15. https://doi. org/10. 1186/s13059-017-1382-0\n7. Baran Y, Dogan B. scMAGS: marker gene selection from scRNA-seq data for spatial transcriptomics studies. Comput Biol\nMed 2023;155:106634. https://doi. org/10. 1016/j. compbiomed. 2023. 106634\n8. Dumitrascu B, Villar S, Mixon DG et al. Optimal marker gene selection for cell type discrimination in single cell analyses. Nat Commun 2021;12:1186. https://doi. org/10. 1038/s41467-021-21453-4\n9.",
+    "token_count": 501,
+    "start_pos": 0,
+    "end_pos": 1449,
+    "section_title": "References",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+    "entities": [
+      {
+        "text": "StuartT",
+        "type": "PER",
+        "start": 3,
+        "end": 11,
+        "score": 0.7793117165565491,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Butler",
+        "type": "PER",
+        "start": 13,
+        "end": 19,
+        "score": 0.9994142055511475,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Hofman",
+        "type": "PER",
+        "start": 23,
+        "end": 29,
+        "score": 0.9994832277297974,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "SvenssonV",
+        "type": "PER",
+        "start": 162,
+        "end": 172,
+        "score": 0.7273948788642883,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "daVeigaBeltrameE",
+        "type": "PER",
+        "start": 174,
+        "end": 193,
+        "score": 0.4995458126068115,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Pachter",
+        "type": "PER",
+        "start": 195,
+        "end": 202,
+        "score": 0.9995805621147156,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Oxford",
+        "type": "LOC",
+        "start": 282,
+        "end": 288,
+        "score": 0.9779631495475769,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HanX",
+        "type": "PER",
+        "start": 353,
+        "end": 358,
+        "score": 0.9669824838638306,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "WangR",
+        "type": "PER",
+        "start": 360,
+        "end": 366,
+        "score": 0.7765656113624573,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Zhou",
+        "type": "PER",
+        "start": 368,
+        "end": 372,
+        "score": 0.9994010925292969,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "HeZ",
+        "type": "PER",
+        "start": 496,
+        "end": 500,
+        "score": 0.9041435718536377,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Luo",
+        "type": "PER",
+        "start": 502,
+        "end": 505,
+        "score": 0.9994532465934753,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ZhouX",
+        "type": "PER",
+        "start": 509,
+        "end": 515,
+        "score": 0.714461624622345,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "NucleicAcidsRes",
+        "type": "ORG",
+        "start": 619,
+        "end": 636,
+        "score": 0.9517115354537964,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Cao",
+        "type": "PER",
+        "start": 694,
+        "end": 697,
+        "score": 0.9995181560516357,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "PackerJ",
+        "type": "PER",
+        "start": 701,
+        "end": 709,
+        "score": 0.7803342938423157,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "RamaniV",
+        "type": "PER",
+        "start": 712,
+        "end": 720,
+        "score": 0.8146836161613464,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Wolf",
+        "type": "PER",
+        "start": 876,
+        "end": 880,
+        "score": 0.9995902180671692,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Angerer",
+        "type": "PER",
+        "start": 885,
+        "end": 892,
+        "score": 0.9997687935829163,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "TheisF",
+        "type": "PER",
+        "start": 896,
+        "end": 903,
+        "score": 0.9905565977096558,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Genome",
+        "type": "ORG",
+        "start": 969,
+        "end": 975,
+        "score": 0.8406531810760498,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "BaranY",
+        "type": "PER",
+        "start": 1039,
+        "end": 1046,
+        "score": 0.679975688457489,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "DoganBGS",
+        "type": "PER",
+        "start": 1048,
+        "end": 1063,
+        "score": 0.7823346257209778,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "ComputBiolMed",
+        "type": "ORG",
+        "start": 1144,
+        "end": 1159,
+        "score": 0.8883047103881836,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "DumitrascuB",
+        "type": "PER",
+        "start": 1230,
+        "end": 1242,
+        "score": 0.5689780712127686,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Villar",
+        "type": "PER",
+        "start": 1244,
+        "end": 1250,
+        "score": 0.9993026256561279,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "MixonD",
+        "type": "PER",
+        "start": 1254,
+        "end": 1261,
+        "score": 0.9695215821266174,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "NatCom",
+        "type": "ORG",
+        "start": 1354,
+        "end": 1361,
+        "score": 0.6331983804702759,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Nelson",
+        "type": "PER",
+        "start": 1425,
+        "end": 1431,
+        "score": 0.9995369911193848,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "RivaSG",
+        "type": "PER",
+        "start": 1436,
+        "end": 1443,
+        "score": 0.8618596792221069,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      },
+      {
+        "text": "Cvej",
+        "type": "PER",
+        "start": 1445,
+        "end": 1449,
+        "score": 0.9982365369796753,
+        "is_structured": false,
+        "pattern_type": null,
+        "context": null
+      }
+    ],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_2",
+    "content": "Nelson ME, Riva SG, Cvejic A. SMaSH: a scalable, general marker gene identification framework for single-cell RNA-sequencing. BMC Bioinformatics 2022;23:328. https://doi. org/10. 1186/s12859- 022-04860-2\n10. Gregory W, Sarwar N, Kevrekidis G et al. MarkerMap: nonlinear marker selection for single-cell studies. NPJ Syst Biol Appl 2024;10:17. https://doi. org/10. 1038/s41540-024-00339-3\n11. Gayoso A, Lopez R, Xing G et al. A python library for probabilistic analysis of single-cell omics data. Nat Biotechnol 2022;40:163–6. https://doi. org/10. 1038/s41587-021-01206-w\n12. Esser-Skala W, Fortelny N. Reliable interpretability of biologyinspired deep neural networks. NPJ Syst Biol Appl 2023;9:50. https:// doi. org/10. 1038/s41540-023-00310-8\n13. Liu A, Peng B, Pankajam AV et al. Discovery of optimal cell type classification marker genes from single cell RNA sequencing data. BMC Methods 2024;1:1. https://doi. org/10. 1186/s44330-024- 00015-2\n14. Zhao Y, Shao J, Asmann YW. Assessment and optimization of explainable machine learning models applied to transcriptomic data. Genomics Proteomics Bioinformatics 2022;20:899–911. https:// doi. org/10. 1016/j. gpb. 2022. 07. 003\n15. Tenorio Berrio R et al. Single-cell transcriptomics sheds light on the identity and metabolism of developing leaf cells. Plant Physiol 2022;188:898–918. https://doi. org/10. 1093/plphys/kiab489\n16. Zhang TQ, Xu ZG, Shang GD et al. A single-cell RNA sequencing profiles the developmental landscape of Arabidopsis root. Mol Plant 2019;12:648–60. https://doi. org/10.",
+    "token_count": 500,
+    "start_pos": 1450,
+    "end_pos": 2997,
+    "section_title": "References",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_3",
+    "content": "1016/j. molp. 2019. 04. 004\n17. Tarhan L et al. Single cell portal: an interactive home for single-cell genomics data. bioRxiv 2023. 07. 13. 548886. https://doi. org/10. 1101/ 2023. 07. 13. 548886\n18. Paul F, Arkin Y’, Giladi A et al. Transcriptional heterogeneity and lineage commitment in myeloid progenitors. Cell 2015;163:1663–77. https://doi. org/10. 1016/j. cell. 2015. 11. 013\n19. Zeisel A, Muñoz-Manchado AB, Codeluppi S et al. Brain structure. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. Science 2015;347:1138–42. https://doi. org/10. 1126/science. aaa1934\n20. Puram SV, Tirosh I, Parikh AS et al. Single-cell transcriptomic analysis of primary and metastatic tumor ecosystems in head and neck cancer. Cell 2017;171:1611–1624. e24. https://doi. org/10. 1016/j. cell. 2017. 10. 044\n21. Chou EL, Lino Cardenas CL, Chafin M et al. Vascular smooth muscle cell phenotype switching in carotid atherosclerosis. JVS Vasc Sci 2022;3:41–7. https://doi. org/10. 1016/j. jvssci. 2021. 11. 002\n22. Frenz-Wiessner S, Fairley SD, Buser M et al. Generation of complex bone marrow organoids from human induced pluripotent stem cells. Nat Methods 2024;21:868–81. https://doi. org/10. 1038/s41592- 024-02172-2\n23. Melms JC, Biermann J, Huang H et al. A molecular single-cell lung atlas of lethal COVID-19. Nature 2021;595:114–9. https://doi. org/10. 1038/s41586-021-03569-1\n24.",
+    "token_count": 509,
+    "start_pos": 2998,
+    "end_pos": 4401,
+    "section_title": "References",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_4",
+    "content": "Pratapa A, Jalihal AP, Law JN et al. Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data. Nat Methods 2020;17:147–54. https://doi. org/10. 1038/s41592- 019-0690-6\n25. Shrikumar A, Greenside P, Kundaje A. Learning Important Features through Propagating Activation Diferences, in International Conference on Machine Learning. 2019. Preprint at https://arxiv. org/abs/ 1704. 02685\n26. Akiba T et al. Optuna: a next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 2623– 31. https://doi. org/10. 1145/3292500. 3330701\n27. Seal S, Bitler BG, Ghosh D. SMASH: scalable method for Analyzing spatial heterogeneity of genes in spatial transcriptomics data. PLoS Genet 2023;19:e1010983. https://doi. org/10. 1371/journal. pgen. 1010983\n28. Kim MC, Gate R, Lee DS et al. Method of moments framework for diferential expression analysis of single-cell RNA sequencing data. Cell 2024;187:6393–6410. e16. https://doi. org/10. 1016/j. cell. 2024. 09. 044\n29. Chen V, Yang M, Cui W et al. Applying interpretable machine learning in computational biology—pitfalls, recommendations and opportunities for new developments. Nat Methods 2024;21:1454–61. https://doi. org/10. 1038/s41592-024-02359-7\n30. Xu C, Lopez R, Mehlman E et al. Probabilistic harmonization and annotation of single-cell transcriptomics data with deep generative models. Mol Syst Biol 2021;17:e9620. https://doi. org/10. 15252/msb. 20209620\n31. Huang L, Gong W, Chen D. scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks.",
+    "token_count": 499,
+    "start_pos": 4402,
+    "end_pos": 6090,
+    "section_title": "References",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  },
+  {
+    "id": "chunk_5",
+    "content": "Brief Bioinform 2025;26:bbaf279. https://doi. org/10. 1093/bib/bbaf279\n32. Williams CG, Lee HJ, Asatsuma T et al. An introduction to spatial transcriptomics for biomedical research. Genome Med 2022;14:68. https://doi. org/10. 1186/s13073-022-01075-1\n33. Trapnell C, Cacchiarelli D, Grimsby J et al. The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells. Nat Biotechnol 2014;32:381–6. https://doi. org/10. 1038/ nbt. 2859\n34. Van den Berge K et al. Trajectory-based diferential expression analysis for single-cell sequencing data. Nat Commun 2020;11:1201. https://doi. org/10. 1038/s41467-020-14766-3",
+    "token_count": 217,
+    "start_pos": 6091,
+    "end_pos": 6743,
+    "section_title": "References",
+    "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+    "entities": [],
+    "is_structured": false,
+    "chunk_type": "text"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "completed": [
+    "Compare the restoration abilities of the Pit Fiend, Planetar, Rakshasa, and Solar. What are the key differences in how their bodies react upon death and where they are revived?",
+    "What are the three unique healing-enhancement features granted by the Life Domain subclass, and at what levels are they acquired?",
+    "What are the specific methods for destroying each of the seven layers of a Prismatic Wall?"
+  ],
+  "results": [
+    {
+      "question": "Compare the restoration abilities of the Pit Fiend, Planetar, Rakshasa, and Solar. What are the key differences in how their bodies react upon death and where they are revived?",
+      "answer": "### 恢复能力对比（Pit Fiend、Planetar、Rakshasa、Solar）\n\n以下是根据提供的上下文材料，对每个生物的恢复能力进行的对比分析。信息仅来源于上下文片段。\n\n#### 各实体恢复能力详情\n1.  **Pit Fiend**\n    *   **能力名称**: “Diabolical Restoration”（地狱恢复） [片段 2]\n    *   **死亡时的身体反应**: 身体在硫磺烟雾中消失。[片段 2]\n    *   **复活地点**: 立即在九层地狱（Nine Hells）的某个地方复活，并恢复全部生命值。[片段 2]\n\n2.  **Planetar**\n    *   **能力名称**: “Exalted Restoration”（崇高恢复） [片段 3]\n    *   **死亡时的身体反应**: 身体消失。[片段 3]\n    *   **复活地点**: 立即在极乐境（Mount Celestia）的某个地方复活，并恢复全部生命值。[片段 3]\n\n3.  **Rakshasa**\n    *   **能力名称**: “Fiendish Restoration”（魔物恢复） [片段 4]\n    *   **死亡时的身体反应**: 身体变成黏液（ichor）。[片段 4]\n    *   **复活地点**: 立即在九层地狱（Nine Hells）的某个地方复活，并恢复全部生命值。[片段 4]\n\n4.  **Solar**\n    *   **恢复能力**: **在提供的所有片段中均未找到关于Solar恢复能力的任何信息。** [片段 1-7]\n\n#### 关键差异总结\n| 生物 | 恢复能力名称 | 死亡时的身体反应 | 复活地点 |\n| :--- | :--- | :--- | :--- |\n| **Pit Fiend** | Diabolical Restoration | 消失于硫磺烟雾中 | 九层地狱 (Nine Hells) |\n| **Planetar** | Exalted Restoration | 消失 | 极乐境 (Mount Celestia) |\n| **Rakshasa** | Fiendish Restoration | 变成黏液 (ichor) | 九层地狱 (Nine Hells) |\n| **Solar** | **未在上下文中提及** | **未在上下文中提及** | **未在上下文中提及** |\n\n**核心差异点**:\n1.  **身体反应**：三个有信息的生物反应各异，Pit Fiend伴随硫磺烟雾，Rakshasa变为特定的黏液，而Planetar仅描述为消失。\n2.  **复活地点阵营**：复活地点与其阵营相关。邪恶的魔鬼/魔物（Pit Fiend, Rakshasa）复活于九层地狱，而善良的天界生物（Planetar）复活于极乐境。Solar的信息缺失，无法进行此对比。",
+      "ground_truth": "The key differences in how their bodies react upon death and where they are revived are as follows:\n\n**Reaction of Body upon Death:**\n*   **Pit Fiend:** Its body disappears in sulfurous smoke.\n*   **Rakshasa:** Its body turns to ichor.\n*   **Planetar and Solar:** Their bodies disappear.\n\n**Revival Location:**\n*   **Pit Fiend and Rakshasa:** They are revived somewhere in the Nine Hells.\n*   **Planetar and Solar:** They are revived somewhere in Mount Celestia.",
+      "context_count": 7,
+      "eval_scores": {
+        "FaithfulnessMetric": {
+          "score": 0.5385,
+          "success": true
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true
+        },
+        "ContextualPrecisionMetric": {
+          "score": 0.6389,
+          "success": true
+        },
+        "ContextualRecallMetric": {
+          "score": 0.5,
+          "success": true
+        }
+      }
+    },
+    {
+      "question": "What are the three unique healing-enhancement features granted by the Life Domain subclass, and at what levels are they acquired?",
+      "answer": "根据提供的上下文片段，以下是关于生命领域子职业治疗增强特性的回答。\n\n### 1. 生命领域子职业提供的三个独特治疗增强特性是什么？\n通过逐片段检查，在提供的材料中找到以下三个独特的治疗增强特性：\n\n1.  **引导神力：生命祈福**：通过一个魔法动作，展示圣徽并消耗一次引导神力使用次数，引导治疗能量，恢复生命值（数量等于牧师等级的五倍）。这些生命值可以分配给30英尺内（包括自己）已受伤的生物。此特性不能将生物的生命值恢复到超过其生命值上限的一半。[片段 1]\n2.  **自我治疗**：当你施放一个能为除你之外的一个或多个生物恢复生命值的法术时，你自身也会恢复生命值，恢复量等于 2 加上该法术的环位。[片段 1]\n3.  **额外生命恢复**：当你使用法术位施放的法术为一个生物恢复生命值时，该生物在你施放该法术的回合会额外恢复生命值，额外恢复量等于 2 加上该法术的环位。[片段 3]\n\n### 2. 这三个独特治疗增强特性在什么等级获得？\n关于这些特性获得的具体等级，在提供的四个上下文片段中均未明确说明。[片段 1]、[片段 2]、[片段 3] 和 [片段 4] 均未提及“引导神力：生命祈福”、“自我治疗”和“额外生命恢复”这些生命领域特性是在哪个牧师等级获得的。",
+      "ground_truth": "*   **Level 3: Disciple of Life** - When a healing spell is cast using a spell slot, the target creature regains additional Hit Points equal to 2 plus the spell slot's level.\n*   **Level 6: Blessed Healer** - When casting a healing spell with a spell slot on another creature, the caster also regains Hit Points equal to 2 plus the spell slot's level.\n*   **Level 17: Supreme Healing** - When using a spell or Channel Divinity to restore Hit Points, instead of rolling dice, the maximum possible value for each die is used for the healing.",
+      "context_count": 4,
+      "eval_scores": {
+        "FaithfulnessMetric": {
+          "score": 1.0,
+          "success": true
+        },
+        "AnswerRelevancyMetric": {
+          "score": 1.0,
+          "success": true
+        },
+        "ContextualPrecisionMetric": {
+          "score": 0.8333,
+          "success": true
+        },
+        "ContextualRecallMetric": {
+          "score": 0.6667,
+          "success": true
+        }
+      }
+    },
+    {
+      "question": "What are the specific methods for destroying each of the seven layers of a Prismatic Wall?",
+      "answer": "根据上下文材料，以下是摧毁棱光墙（Prismatic Wall）每一层的具体方法。所有信息均来自片段 1，该片段提供了七层的详细破坏方式。其他片段未包含相关破坏方法信息。\n\n- **红色层（Red）**：被至少 25 点寒冷伤害摧毁 [片段 1]。\n- **橙色层（Orange）**：被强风（如由 *Gust of Wind* 法术创造的风）摧毁 [片段 1]。\n- **黄色层（Yellow）**：被至少 60 点力场伤害摧毁 [片段 1]。\n- **绿色层（Green）**：被 *Passwall* 法术，或另一个能打开门户的同级或更高级法术摧毁 [片段 1]。\n- **蓝色层（Blue）**：被至少 25 点火焰伤害摧毁 [片段 1]。\n- **靛蓝色层（Indigo）**：被 *Daylight* 法术发出的明亮光线摧毁 [片段 1]。\n- **紫罗兰色层（Violet）**：被 *Dispel Magic* 法术摧毁 [片段 1]。\n\n此外，棱光墙的破坏顺序是从红色层到紫罗兰色层，每层被摧毁后不再存在，且 *Antimagic Field* 对墙无效，而 *Dispel Magic* 仅能影响紫罗兰色层 [片段 1]。",
+      "ground_truth": "The specific methods for destroying each of the seven layers of a Prismatic Wall are as follows:\n\n*   **Red:** Destroyed if it takes at least 25 Cold damage.\n*   **Orange:** Destroyed by a strong wind, such as the one created by *Gust of Wind*.\n*   **Yellow:** Destroyed if it takes at least 60 Force damage.\n*   **Green:** Destroyed by a *Passwall* spell, or another spell of equal or greater level that can open a portal on a solid surface.\n*   **Blue:** Destroyed if it takes at least 25 Fire damage.\n*   **Indigo:** Destroyed by the Bright Light shed by the *Daylight* spell.\n*   **Violet:** Destroyed by *Dispel Magic*.",
+      "context_count": 8,
+      "eval_scores": {
+        "FaithfulnessMetric": {
+          "score": 1.0,
+          "success": true
+        },
+        "AnswerRelevancyMetric": {
+          "score": 0.9333,
+          "success": true
+        },
+        "ContextualPrecisionMetric": {
+          "score": 1.0,
+          "success": true
+        },
+        "ContextualRecallMetric": {
+          "score": 1.0,
+          "success": true
+        }
+      }
+    }
+  ]
+}

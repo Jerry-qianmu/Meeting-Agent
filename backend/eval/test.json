@@ -1,0 +1,34 @@
+[
+  {
+    "id": 17,
+    "question": "What are the three types of modifiers that can be added to a D20 Test, and under what specific circumstances is the Proficiency Bonus applied to each of the three kinds of D20 Tests?",
+    "answer": "The three types of modifiers that can be added to a D20 Test are:\n*   The Relevant Ability Modifier\n*   Your Proficiency Bonus If Relevant\n*   Circumstantial Bonuses and Penalties\n\nThe Proficiency Bonus is applied to the three kinds of D20 Tests under the following circumstances:\n*   **Ability Check:** The Proficiency Bonus is added when the GM determines a skill or tool proficiency is relevant to the check and you have that proficiency.\n*   **Saving Throw:** The Proficiency Bonus is added if you have proficiency in that kind of save.\n*   **Attack Roll:** The Proficiency Bonus is added when you attack using a weapon you have proficiency with, or when you attack with a spell.",
+    "passages": [
+      {
+        "content": "**5: Add Modifiers.** Add these modifiers to the number rolled on the d20:\n*   **The Relevant Ability Modifier.** “Playing the Game” and “Rules Glossary” explain which ability modifiers to use for various D20 Tests.\n*   **Your Proficiency Bonus If Relevant.** Each creature has a Proficiency Bonus, a number added when making a D20 Test that uses something, such as a skill, in which the creature has proficiency. See “Proficiency” later in “Playing the Game.”\n*   **Circumstantial Bonuses and Penalties.** A class feature, a spell, or another rule might give a bonus or penalty to the die roll.",
+        "document_path": "DND5eSRD_001-018.md",
+        "start_char": 15083,
+        "end_char": 15678
+      },
+      {
+        "content": "Add your Proficiency Bonus to an ability check when the GM determines that a skill or tool proficiency is relevant to the check and you have that proficiency. For example, if a rule refers to a Strength (Acrobatics or Athletics) check, you can add your Proficiency Bonus to the check if you have proficiency in the Acrobatics or Athletics skill. See “Proficiency” later in “Playing the Game” for more information about skill and tool proficiencies.",
+        "document_path": "DND5eSRD_001-018.md",
+        "start_char": 17390,
+        "end_char": 17838
+      },
+      {
+        "content": "You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See “Proficiency” later in “Playing the Game.”",
+        "document_path": "DND5eSRD_001-018.md",
+        "start_char": 19472,
+        "end_char": 19616
+      },
+      {
+        "content": "You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See “Proficiency” later in “Playing the Game.”\n\n### Difficulty Class\nThe Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC.\n\n## Attack Rolls\nAn attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in \"Combat\" later in \"Playing the Game,\" but the GM might also ask for an attack roll in other situations, such as an archery competition.\n\n### Ability Modifier\nThe Attack Roll Abilities table shows which ability modifier to use for different types of attack rolls.\n\n**Attack Roll Abilities**\n| Ability | Attack Type |\n| :--- | :--- |\n| **Strength** | Melee attack with a weapon or an Unarmed Strike (see “Rules Glossary”) |\n| **Dexterity** | Ranged attack with a weapon |\n| **Varies** | Spell attack (the ability used is determined by the spellcaster’s spellcasting feature, as explained in “Spells”) |\n\nSome features let you use different ability modifiers from those listed. For example, the Finesse property (see \"Equipment\") lets you use Strength or Dexterity with a weapon that has that property.\n\n### Proficiency Bonus\nYou add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See “Proficiency” later in “Playing the Game” for more information about weapon proficiencies.",
+        "document_path": "DND5eSRD_001-018.md",
+        "start_char": 19472,
+        "end_char": 21192
+      }
+    ]
+  }
+]
+  

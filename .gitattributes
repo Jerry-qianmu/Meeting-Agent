@@ -1,0 +1,10 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+*.wal filter=lfs diff=lfs merge=lfs -text
+*.tmpgit filter=lfs diff=lfs merge=lfs -text
+add filter=lfs diff=lfs merge=lfs -text

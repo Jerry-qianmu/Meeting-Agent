@@ -1,0 +1,3245 @@
+{
+  "nodes": [
+    {
+      "id": "doc_root",
+      "type": "document",
+      "metadata": {
+        "title": "file",
+        "total_chunks": 55,
+        "total_tokens": 10665
+      }
+    },
+    {
+      "id": "sec_1",
+      "type": "section",
+      "metadata": {
+        "title": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+        "level": 1,
+        "content_length": 1246
+      }
+    },
+    {
+      "id": "sec_2",
+      "type": "section",
+      "metadata": {
+        "title": "Abstract",
+        "level": 2,
+        "content_length": 1575
+      }
+    },
+    {
+      "id": "sec_3",
+      "type": "section",
+      "metadata": {
+        "title": "Introduction",
+        "level": 2,
+        "content_length": 4536
+      }
+    },
+    {
+      "id": "sec_4",
+      "type": "section",
+      "metadata": {
+        "title": "Methods",
+        "level": 2,
+        "content_length": 0
+      }
+    },
+    {
+      "id": "sec_5",
+      "type": "section",
+      "metadata": {
+        "title": "Data information",
+        "level": 2,
+        "content_length": 0
+      }
+    },
+    {
+      "id": "sec_6",
+      "type": "section",
+      "metadata": {
+        "title": "scRNA-seq",
+        "level": 2,
+        "content_length": 1058
+      }
+    },
+    {
+      "id": "sec_7",
+      "type": "section",
+      "metadata": {
+        "title": "Spatial transcriptome data",
+        "level": 2,
+        "content_length": 427
+      }
+    },
+    {
+      "id": "sec_8",
+      "type": "section",
+      "metadata": {
+        "title": "Data preparation",
+        "level": 2,
+        "content_length": 1023
+      }
+    },
+    {
+      "id": "sec_9",
+      "type": "section",
+      "metadata": {
+        "title": "Training set balancing by upsampling",
+        "level": 2,
+        "content_length": 556
+      }
+    },
+    {
+      "id": "sec_10",
+      "type": "section",
+      "metadata": {
+        "title": "Model architecture",
+        "level": 2,
+        "content_length": 1238
+      }
+    },
+    {
+      "id": "sec_11",
+      "type": "section",
+      "metadata": {
+        "title": "Hyperparameter optimization",
+        "level": 2,
+        "content_length": 1026
+      }
+    },
+    {
+      "id": "sec_12",
+      "type": "section",
+      "metadata": {
+        "title": "Ensemble model refinement",
+        "level": 2,
+        "content_length": 1242
+      }
+    },
+    {
+      "id": "sec_13",
+      "type": "section",
+      "metadata": {
+        "title": "Calculate gene attribution",
+        "level": 2,
+        "content_length": 1877
+      }
+    },
+    {
+      "id": "sec_14",
+      "type": "section",
+      "metadata": {
+        "title": "Training strategy",
+        "level": 2,
+        "content_length": 254
+      }
+    },
+    {
+      "id": "sec_15",
+      "type": "section",
+      "metadata": {
+        "title": "Putative gene selection based on contribution scores",
+        "level": 2,
+        "content_length": 1662
+      }
+    },
+    {
+      "id": "sec_16",
+      "type": "section",
+      "metadata": {
+        "title": "Marker gene selection with expression pattern filtering",
+        "level": 2,
+        "content_length": 2664
+      }
+    },
+    {
+      "id": "sec_17",
+      "type": "section",
+      "metadata": {
+        "title": "Synthetic data generation",
+        "level": 2,
+        "content_length": 233
+      }
+    },
+    {
+      "id": "sec_18",
+      "type": "section",
+      "metadata": {
+        "title": "Background expression",
+        "level": 2,
+        "content_length": 240
+      }
+    },
+    {
+      "id": "sec_19",
+      "type": "section",
+      "metadata": {
+        "title": "Marker gene classes",
+        "level": 2,
+        "content_length": 1144
+      }
+    },
+    {
+      "id": "sec_20",
+      "type": "section",
+      "metadata": {
+        "title": "Correlation analysis of contribution scores with expression levels and log2FC",
+        "level": 2,
+        "content_length": 348
+      }
+    },
+    {
+      "id": "sec_21",
+      "type": "section",
+      "metadata": {
+        "title": "Cell-level analysis",
+        "level": 2,
+        "content_length": 235
+      }
+    },
+    {
+      "id": "sec_22",
+      "type": "section",
+      "metadata": {
+        "title": "Gene-level analysis",
+        "level": 2,
+        "content_length": 246
+      }
+    },
+    {
+      "id": "sec_23",
+      "type": "section",
+      "metadata": {
+        "title": "Group-level analysis",
+        "level": 2,
+        "content_length": 469
+      }
+    },
+    {
+      "id": "sec_24",
+      "type": "section",
+      "metadata": {
+        "title": "Methods compared with scMarkerGene",
+        "level": 2,
+        "content_length": 1555
+      }
+    },
+    {
+      "id": "sec_25",
+      "type": "section",
+      "metadata": {
+        "title": "Performance metrics",
+        "level": 2,
+        "content_length": 549
+      }
+    },
+    {
+      "id": "sec_26",
+      "type": "section",
+      "metadata": {
+        "title": "Normalized Z-score",
+        "level": 2,
+        "content_length": 969
+      }
+    },
+    {
+      "id": "sec_27",
+      "type": "section",
+      "metadata": {
+        "title": "F1-score",
+        "level": 2,
+        "content_length": 864
+      }
+    },
+    {
+      "id": "sec_28",
+      "type": "section",
+      "metadata": {
+        "title": "Dimensionality reduction and visualization",
+        "level": 2,
+        "content_length": 401
+      }
+    },
+    {
+      "id": "sec_29",
+      "type": "section",
+      "metadata": {
+        "title": "Results",
+        "level": 2,
+        "content_length": 0
+      }
+    },
+    {
+      "id": "sec_30",
+      "type": "section",
+      "metadata": {
+        "title": "scMarkerGene workflow overview",
+        "level": 2,
+        "content_length": 2978
+      }
+    },
+    {
+      "id": "sec_31",
+      "type": "section",
+      "metadata": {
+        "title": "Performance assessment of methods for cell-type-specific marker gene identification",
+        "level": 2,
+        "content_length": 1864
+      }
+    },
+    {
+      "id": "sec_32",
+      "type": "section",
+      "metadata": {
+        "title": "Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+        "level": 2,
+        "content_length": 1907
+      }
+    },
+    {
+      "id": "sec_33",
+      "type": "section",
+      "metadata": {
+        "title": "Robustness of scMarkerGene in marker gene identification across cell population scales",
+        "level": 2,
+        "content_length": 2574
+      }
+    },
+    {
+      "id": "sec_34",
+      "type": "section",
+      "metadata": {
+        "title": "Identification of marker genes in spatial transcriptomics data using scMarkerGene",
+        "level": 2,
+        "content_length": 1332
+      }
+    },
+    {
+      "id": "sec_35",
+      "type": "section",
+      "metadata": {
+        "title": "Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+        "level": 2,
+        "content_length": 1825
+      }
+    },
+    {
+      "id": "sec_36",
+      "type": "section",
+      "metadata": {
+        "title": "Discussion",
+        "level": 2,
+        "content_length": 3281
+      }
+    },
+    {
+      "id": "sec_37",
+      "type": "section",
+      "metadata": {
+        "title": "Key Points",
+        "level": 2,
+        "content_length": 289
+      }
+    },
+    {
+      "id": "sec_38",
+      "type": "section",
+      "metadata": {
+        "title": "Author contributions",
+        "level": 2,
+        "content_length": 277
+      }
+    },
+    {
+      "id": "sec_39",
+      "type": "section",
+      "metadata": {
+        "title": "Supplementary material",
+        "level": 2,
+        "content_length": 74
+      }
+    },
+    {
+      "id": "sec_40",
+      "type": "section",
+      "metadata": {
+        "title": "Conflicts of interest",
+        "level": 2,
+        "content_length": 53
+      }
+    },
+    {
+      "id": "sec_41",
+      "type": "section",
+      "metadata": {
+        "title": "Funding",
+        "level": 2,
+        "content_length": 265
+      }
+    },
+    {
+      "id": "sec_42",
+      "type": "section",
+      "metadata": {
+        "title": "Code and data availability",
+        "level": 2,
+        "content_length": 684
+      }
+    },
+    {
+      "id": "sec_43",
+      "type": "section",
+      "metadata": {
+        "title": "References",
+        "level": 2,
+        "content_length": 6635
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+        "tokens": 377,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+        "content_preview": "Jingkai Zhang<sup>1,2,3,‡</sup>, Si Hoi Kou<sup>1,2,3,‡</sup>, Jiulu Zhao<sup>1,2,3,4</sup>, Xiaomin Li<sup>1,2,3,4</sup>, Yongbing Zhao <sup>1,2,3,4,</sup>\\*\n<sup>1</sup>Center for Biomedical Digital...",
+        "is_structured": false,
+        "entity_count": 41
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Abstract",
+        "tokens": 253,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Abstract",
+        "content_preview": "In single-cell transcriptomics, the accurate identification of cell-type-specific marker genes is fundamental for understanding cellular heterogeneity. However, existing approaches often rely on arbit...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Introduction",
+        "tokens": 184,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Introduction",
+        "content_preview": "Rapid advances in single-cell RNA sequencing (scRNA-seq) have enabled transcriptome-wide profiling at single-cell resolution, uncovering cellular heterogeneity, rare subpopulations, and lineage trajec...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Introduction",
+        "tokens": 113,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Introduction",
+        "content_preview": "In our previous work, we explored explainable neural networks to improve interpretability in transcriptomic data analysis. We showed that gene contribution scores quantitatively capture each gene’s in...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "scRNA-seq",
+        "tokens": 246,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scRNA-seq",
+        "content_preview": "We collected a total of 10 publicly available single-cell RNA sequencing (scRNA-seq) datasets spanning multiple species, tissues, and technologies (Supplementary Table 1). The datasets include arabido...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Spatial transcriptome data",
+        "tokens": 116,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Spatial transcriptome data",
+        "content_preview": "We used spatial transcriptomics datasets from 10x Genomics (https:// www.10xgenomics.com/), including FFPE mouse brain (CytAssist\\_FFPE\\_Mouse\\_Brain\\_Rep1; Date Published: 2022-07-14) and FFPE human ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Data preparation",
+        "tokens": 218,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Data preparation",
+        "content_preview": "scMarkerGene preprocesses the input single-cell RNA-seq dataset according to its format. For raw count data, it performs TP10K normalization (transcripts per 10 000 reads), filters out genes that are ...",
+        "is_structured": false,
+        "entity_count": 2
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Training set balancing by upsampling",
+        "tokens": 150,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Training set balancing by upsampling",
+        "content_preview": "To alleviate class imbalance during training, the training dataset is upsampled. Denote the number of cells in the largest cell type as $N _ { m a x } .$ For each underrepresented cell type c with $N ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Model architecture",
+        "tokens": 180,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Model architecture",
+        "content_preview": "Given the input expression matrix and the label vector, we construct a Multi-Layer Perceptron (MLP) consisting of l hidden layers to capture the non-linear dependencies among genes, thereby uncovering...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Model architecture",
+        "tokens": 156,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Model architecture",
+        "content_preview": "\\hat {\\mathbf {y}} = \\operatorname{Softmax} \\left(\\mathrm{W} ^ {(l + 1)} \\mathrm{h} ^ {(l)} + \\mathrm{b} ^ {(l + 1)}\\right).\n\n\\mathcal {L} = - \\sum_ {\\mathrm{c} = 1} ^ {\\mathrm{C}} \\mathrm{y} _ {\\math...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Hyperparameter optimization",
+        "tokens": 228,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Hyperparameter optimization",
+        "content_preview": "In our study, we found that hyperparameter tuning plays a crucial role in stabilizing the model’s generalization capability, which not only improves classification accuracy but also enhances the relia...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Ensemble model refinement",
+        "tokens": 293,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Ensemble model refinement",
+        "content_preview": "To enhance the robustness and stability of marker gene prediction, we implemented an ensemble learning strategy based on the optimal hyperparameters obtained from the previous search. Specifically, we...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Calculate gene attribution",
+        "tokens": 249,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Calculate gene attribution",
+        "content_preview": "To identify the most influential genes contributing to classification decisions, we applied interpretation techniques to each gene in the model. Specifically, for each trained classifier model $M L P ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Calculate gene attribution",
+        "tokens": 60,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Calculate gene attribution",
+        "content_preview": "\\mathrm{A} ^ {*} = \\frac {1}{\\mathrm{M}} \\sum_ {\\mathrm{m=1}} ^ {\\mathrm{M}} \\mathrm{A} _ {\\mathrm{m}} ^ {+}, \\mathrm{M} = 1 5.",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Training strategy",
+        "tokens": 64,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Training strategy",
+        "content_preview": "All ensemble models were trained using the Adam optimizer (initial learning rate = 0.01 × lr, weight decay = 0.001), with a 30-step linear warm-up and early stopping (patience = 5) based on improvemen...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Putative gene selection based on contribution scores",
+        "tokens": 428,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Putative gene selection based on contribution scores",
+        "content_preview": "To identify candidate marker genes with cell-type-specific contributions, we ranked genes according to their contribution scores derived from the consensus matrices. We first removed samples for which...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Marker gene selection with expression pattern filtering",
+        "tokens": 343,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+        "content_preview": "In our approach, the contribution score quantifies the relative influence of a gene $g$ on the classifier’s predictive performance, i.e. how much it aids in distinguishing the target cell type. While ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Marker gene selection with expression pattern filtering",
+        "tokens": 123,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+        "content_preview": "\\text {Specificity} (\\mathrm{g}, \\mathrm{c}) = \\sum_ {\\mathrm{x} \\in \\{\\mu , \\mathrm{m}, \\mathrm{f} \\}} \\hat {\\mathrm{S}} _ {\\mathrm{x}} (\\mathrm{g}, \\mathrm{c}).\n\n\\mathrm{M} \\left(\\mathrm{g}, \\mathrm...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_3",
+      "type": "chunk",
+      "metadata": {
+        "title": "Marker gene selection with expression pattern filtering",
+        "tokens": 97,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene selection with expression pattern filtering",
+        "content_preview": "\\mathrm{E} _ {\\mathrm{x}} (\\mathrm{g}, \\mathrm{c}) > \\alpha \\cdot \\max _ {\\mathrm{c} ^ {\\prime} \\neq \\mathrm{c}} \\mathrm{E} _ {\\mathrm{x}} \\left(\\mathrm{g}, \\mathrm{c} ^ {\\prime}\\right), \\forall \\math...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Synthetic data generation",
+        "tokens": 55,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Synthetic data generation",
+        "content_preview": "We generated synthetic single-cell expression datasets of varying scales to benchmark marker gene identification. Each dataset contained $N = G \\ \\in$ 400, 600, 800, 1000 cells and genes, distributed ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Background expression",
+        "tokens": 66,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Background expression",
+        "content_preview": "All genes were initialized with low-level background expression across all cells. Counts were drawn from a negative binomial distribution:\n\\mathrm{X} \\sim \\mathrm{NB} (\\mu , \\mathbf {r}),\nwith mean $\\...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Marker gene classes",
+        "tokens": 348,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Marker gene classes",
+        "content_preview": "For each cell type, 30 marker genes were introduced (10 per category), with distinct expression rules:\nType I (Specific-high): Highly expressed in all cells of one target cell type, sampled from $[ \\m...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Correlation analysis of contribution scores with expression levels and log2FC",
+        "tokens": 65,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Correlation analysis of contribution scores with expression levels and log2FC",
+        "content_preview": "To assess how contribution scores relate to gene expression and celltype specificity, we performed correlation analyses using group-wise expression levels and log2 fold-change (log2FC). For each cell ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Cell-level analysis",
+        "tokens": 38,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Cell-level analysis",
+        "content_preview": "For each cell, we computed the Pearson correlation between contribution scores and expression values restricted to either top-N genes by contribution scores or random genes. This produced a distributi...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Gene-level analysis",
+        "tokens": 48,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Gene-level analysis",
+        "content_preview": "For each gene, we computed two Pearson correlation coeficients across groups: (i) between its group-wise median expression profile and its profile of contribution scores, and (ii) between its log2FC p...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Group-level analysis",
+        "tokens": 90,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Group-level analysis",
+        "content_preview": "For each group, Pearson correlations between contribution scores and either median expression or log2FC were calculated separately for the top-N genes by contribution scores and the background genes. ...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Methods compared with scMarkerGene",
+        "tokens": 363,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Methods compared with scMarkerGene",
+        "content_preview": "This study compared nine commonly used methods for cell marker gene identification. For scanpy [6], raw expression data were normalized using sc.pp.normalize\\_total and log-transformed with sc.pp.log1...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Performance metrics",
+        "tokens": 158,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance metrics",
+        "content_preview": "To assess the performance of diferent marker gene selection methods, we introduced log2 fold-change as a key metric. The log 2FC quantifies the relative upregulation of a gene in a target cell type co...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Normalized Z-score",
+        "tokens": 298,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Normalized Z-score",
+        "content_preview": "The normalized Z-score is another metric to assess marker gene specificity, alongside the log2FC. This is computed by first calculating the mean and standard deviation of the gene’s expression across ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "F1-score",
+        "tokens": 218,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > F1-score",
+        "content_preview": "To assess the accuracy of diferent models in identifying the simulated cell-type-specific markers, we calculated the F1-score between each model’s top 20 predicted genes and the ground truth set of 20...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Dimensionality reduction and visualization",
+        "tokens": 82,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Dimensionality reduction and visualization",
+        "content_preview": "We performed principal component analysis (PCA) on the expression/attribution matrices using sc.tl.pca, followed by neighborhood graph construction with sc.pp.neighbors and UMAP embedding via sc.tl.um...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "scMarkerGene workflow overview",
+        "tokens": 249,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scMarkerGene workflow overview",
+        "content_preview": "The detailed workflow of scMarkerGene is outlined in the Methods section and illustrated in Fig. 1, which is roughly consisted of two steps. In the step 1, scMarkerGene calculated the importance (a.k....",
+        "is_structured": false,
+        "entity_count": 4
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "scMarkerGene workflow overview",
+        "tokens": 158,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > scMarkerGene workflow overview",
+        "content_preview": "To explore the relationship between contribution scores and transcriptional features, we quantified their correlations with gene expression at multiple resolutions—including single-cell, gene, and cel...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Performance assessment of methods for cell-type-specific marker gene identification",
+        "tokens": 111,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance assessment of methods for cell-type-specific marker gene identification",
+        "content_preview": "To systematically benchmark the performance of scMarkerGene, we compared it against nine widely used marker gene detection methods, including scMAGs, scanpy, SMaSH, NsForest, scGeneFit, MarkerMap, scV...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Performance assessment of methods for cell-type-specific marker gene identification",
+        "tokens": 164,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Performance assessment of methods for cell-type-specific marker gene identification",
+        "content_preview": "Building on the initial comparison, we further extended the benchmarking to eight diverse single-cell transcriptome datasets, spanning mouse, human, fly, and arabidopsis [15–17, 19–22]. Across all dat...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+        "tokens": 243,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+        "content_preview": "To further benchmark scMarkerGene, we designed a simulation framework incorporating five distinct gene expression patterns with representative profiles shown in Fig. 3A. Among these genes, Type I and ...",
+        "is_structured": false,
+        "entity_count": 4
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+        "tokens": 142,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Superior performance of scMarkerGene in identifying high-specificity markers in simulated datasets",
+        "content_preview": "We further evaluated the robustness of diferent methods under sparse data conditions by systematically introducing dropout noise (10%–40%) into Type I and Type II expression matrices. scMarkerGene con...",
+        "is_structured": false,
+        "entity_count": 3
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Robustness of scMarkerGene in marker gene identification across cell population scales",
+        "tokens": 278,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Robustness of scMarkerGene in marker gene identification across cell population scales",
+        "content_preview": "To evaluate the robustness of scMarkerGene across diferent celltype annotation resolutions, we compared its performance with scANVI, scanpy, scMAGs, and SMaSH on the Bone marrow organoids (BMO) datase...",
+        "is_structured": false,
+        "entity_count": 4
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Robustness of scMarkerGene in marker gene identification across cell population scales",
+        "tokens": 70,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Robustness of scMarkerGene in marker gene identification across cell population scales",
+        "content_preview": "\nPerformance evaluation of marker detection methods across sub-sampling\n\nTogether, these findings demonstrate that scMarkerGene not only delivers superior performance across annotation resolutions, bu...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Identification of marker genes in spatial transcriptomics data using scMarkerGene",
+        "tokens": 255,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Identification of marker genes in spatial transcriptomics data using scMarkerGene",
+        "content_preview": "Unlike single-cell transcriptomics, where cell type annotations are readily available, spatial transcriptomics relies on spatial coordinates or other prior information, such as known marker genes, his...",
+        "is_structured": false,
+        "entity_count": 6
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+        "tokens": 173,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+        "content_preview": "In single-cell pseudotime analysis, marker gene selection is typically based on correlations between gene expression and pseudotime (commonly inferred using methods such as Monocle3) [33] or on discre...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+        "tokens": 231,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Application of scMarkerGene in identifying ‘discretized’ pseudotime-related marker genes",
+        "content_preview": "PseudoTime\n(Fig. 6A). Figure 6B displays the pseudotime-dependent dynamics of the contribution scores for bin-specific marker genes predicted by scMarkerGene. We further compared scMarkerGene with scA...",
+        "is_structured": false,
+        "entity_count": 1
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Discussion",
+        "tokens": 114,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Discussion",
+        "content_preview": "Marker gene identification remains fundamental to single-cell analysis, because it anchors cell identity and functional interpretation. Our study emphasizes that, beyond detecting marker genes, the or...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "Discussion",
+        "tokens": 148,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Discussion",
+        "content_preview": "The integration of contribution scores, ensemble learning, hyperparameter optimization, and specificity-based marker ranking confers scMarkerGene with robustness and facilitates the identification of ...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Key Points",
+        "tokens": 51,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Key Points",
+        "content_preview": "• An explainable model that quantitatively links cell-type decisions to gene-level contributions.\n• Identifies true cell-specific markers rather than genes driven by high expression or noise.\n• Reliab...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Author contributions",
+        "tokens": 73,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Author contributions",
+        "content_preview": "Y.Z. conceived and supervised the project. J.K.Z., S.H.K., and Y.Z. designed and implemented the algorithm. J.K.Z., S.H.K., J.L.Z., and X.L. performed data analysis. J.K.Z., S.H.K., and Y.Z. wrote the...",
+        "is_structured": false,
+        "entity_count": 11
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Supplementary material",
+        "tokens": 13,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Supplementary material",
+        "content_preview": "Supplementary material is available at Briefings in Bioinformatics online.",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Conflicts of interest",
+        "tokens": 10,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Conflicts of interest",
+        "content_preview": "The authors have no conflicts of interest to declare.",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Funding",
+        "tokens": 81,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Funding",
+        "content_preview": "This work was supported by the National Key Research and Development Program of China (grant no. 2024YFA1802300 to Y.Z.), Science and Technology Planning Project of Guangdong Province (grant no. 2023Q...",
+        "is_structured": false,
+        "entity_count": 3
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "Code and data availability",
+        "tokens": 168,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > Code and data availability",
+        "content_preview": "The source code and detailed instructions for using scMarkerGene are publicly available at https://scmarkergene.zhaopage.com. All experiments in this study were implemented using Python 3.12.12. The c...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_1",
+      "type": "chunk",
+      "metadata": {
+        "title": "References",
+        "tokens": 501,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+        "content_preview": "1. Stuart T, Butler A, Hofman P et al. Comprehensive integration of single-cell data. Cell 2019;177:1888–1902. e21. https://doi. org/10. 1016/j. cell. 2019. 05. 031\n2. Svensson V, da Veiga Beltrame E,...",
+        "is_structured": false,
+        "entity_count": 31
+      }
+    },
+    {
+      "id": "chunk_2",
+      "type": "chunk",
+      "metadata": {
+        "title": "References",
+        "tokens": 500,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+        "content_preview": "Nelson ME, Riva SG, Cvejic A. SMaSH: a scalable, general marker gene identification framework for single-cell RNA-sequencing. BMC Bioinformatics 2022;23:328. https://doi. org/10. 1186/s12859- 022-0486...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_3",
+      "type": "chunk",
+      "metadata": {
+        "title": "References",
+        "tokens": 509,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+        "content_preview": "1016/j. molp. 2019. 04. 004\n17. Tarhan L et al. Single cell portal: an interactive home for single-cell genomics data. bioRxiv 2023. 07. 13. 548886. https://doi. org/10. 1101/ 2023. 07. 13. 548886\n18....",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_4",
+      "type": "chunk",
+      "metadata": {
+        "title": "References",
+        "tokens": 499,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+        "content_preview": "Pratapa A, Jalihal AP, Law JN et al. Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data. Nat Methods 2020;17:147–54. https://doi. org/10. 1038/s41592- 0...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "chunk_5",
+      "type": "chunk",
+      "metadata": {
+        "title": "References",
+        "tokens": 217,
+        "breadcrumb": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery > References",
+        "content_preview": "Brief Bioinform 2025;26:bbaf279. https://doi. org/10. 1093/bib/bbaf279\n32. Williams CG, Lee HJ, Asatsuma T et al. An introduction to spatial transcriptomics for biomedical research. Genome Med 2022;14...",
+        "is_structured": false,
+        "entity_count": 0
+      }
+    },
+    {
+      "id": "ent_44",
+      "type": "entity",
+      "metadata": {
+        "name": "JingkaiZhang",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_45",
+      "type": "entity",
+      "metadata": {
+        "name": "SiiKou",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_46",
+      "type": "entity",
+      "metadata": {
+        "name": "JiuluZhao",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_47",
+      "type": "entity",
+      "metadata": {
+        "name": "XiaominLi",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_48",
+      "type": "entity",
+      "metadata": {
+        "name": "YongbingZhao",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_49",
+      "type": "entity",
+      "metadata": {
+        "name": "CenterforBiomedicalDigitalScience",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_50",
+      "type": "entity",
+      "metadata": {
+        "name": "GuangzhouInstitutesofBiomedicineandHealth",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_51",
+      "type": "entity",
+      "metadata": {
+        "name": "ChineseAcademyofSciences",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_52",
+      "type": "entity",
+      "metadata": {
+        "name": "KaiyuanAvenue",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_53",
+      "type": "entity",
+      "metadata": {
+        "name": "HuangpuDistrict",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_54",
+      "type": "entity",
+      "metadata": {
+        "name": "Guangzhou",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_55",
+      "type": "entity",
+      "metadata": {
+        "name": "China",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_56",
+      "type": "entity",
+      "metadata": {
+        "name": "GuangdongProvincialKeyLaboratoryofStemCellandRegenerativeMedicine",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_57",
+      "type": "entity",
+      "metadata": {
+        "name": "Guangdong-HongKongJointLaboratoryforStemCellandRegenerativeMedicine",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_58",
+      "type": "entity",
+      "metadata": {
+        "name": "UniversityofChineseAcademyofSciences",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_59",
+      "type": "entity",
+      "metadata": {
+        "name": "YanqiLakeEastRoad",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_60",
+      "type": "entity",
+      "metadata": {
+        "name": "HuairouDistrict",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_61",
+      "type": "entity",
+      "metadata": {
+        "name": "Beijing",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_62",
+      "type": "entity",
+      "metadata": {
+        "name": "zhao\\_yongbing@gibh.ac.cn",
+        "category": "EMAIL",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_63",
+      "type": "entity",
+      "metadata": {
+        "name": "SiHoiKou",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_64",
+      "type": "entity",
+      "metadata": {
+        "name": "BEELINE",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_65",
+      "type": "entity",
+      "metadata": {
+        "name": "scMarkerGene",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_66",
+      "type": "entity",
+      "metadata": {
+        "name": "Seurat",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_67",
+      "type": "entity",
+      "metadata": {
+        "name": "Shrikumarchberg",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_68",
+      "type": "entity",
+      "metadata": {
+        "name": "Pearson",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_69",
+      "type": "entity",
+      "metadata": {
+        "name": "Computational-Morphogenomics-Group",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_70",
+      "type": "entity",
+      "metadata": {
+        "name": "Methods",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_71",
+      "type": "entity",
+      "metadata": {
+        "name": "MarkerMap",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_72",
+      "type": "entity",
+      "metadata": {
+        "name": "NsForest",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_73",
+      "type": "entity",
+      "metadata": {
+        "name": "sc",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_74",
+      "type": "entity",
+      "metadata": {
+        "name": "SMaSH",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_75",
+      "type": "entity",
+      "metadata": {
+        "name": "s",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_76",
+      "type": "entity",
+      "metadata": {
+        "name": "SMSH",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_77",
+      "type": "entity",
+      "metadata": {
+        "name": "scAN",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_78",
+      "type": "entity",
+      "metadata": {
+        "name": "scMene",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_79",
+      "type": "entity",
+      "metadata": {
+        "name": "Y.Z.",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_80",
+      "type": "entity",
+      "metadata": {
+        "name": "J.K.Z.",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_81",
+      "type": "entity",
+      "metadata": {
+        "name": "S.H.K.",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_82",
+      "type": "entity",
+      "metadata": {
+        "name": "J.L.Z.",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_83",
+      "type": "entity",
+      "metadata": {
+        "name": "X.L.",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_84",
+      "type": "entity",
+      "metadata": {
+        "name": "NationalKeyResearchandDevelopmentProgramChina",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_85",
+      "type": "entity",
+      "metadata": {
+        "name": "ScienceandTechnologyPlanningProject",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_86",
+      "type": "entity",
+      "metadata": {
+        "name": "GuangdongProvinceZ",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_87",
+      "type": "entity",
+      "metadata": {
+        "name": "StuartT",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_88",
+      "type": "entity",
+      "metadata": {
+        "name": "Butler",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_89",
+      "type": "entity",
+      "metadata": {
+        "name": "Hofman",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_90",
+      "type": "entity",
+      "metadata": {
+        "name": "SvenssonV",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_91",
+      "type": "entity",
+      "metadata": {
+        "name": "daVeigaBeltrameE",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_92",
+      "type": "entity",
+      "metadata": {
+        "name": "Pachter",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_93",
+      "type": "entity",
+      "metadata": {
+        "name": "Oxford",
+        "category": "LOC",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_94",
+      "type": "entity",
+      "metadata": {
+        "name": "HanX",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_95",
+      "type": "entity",
+      "metadata": {
+        "name": "WangR",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_96",
+      "type": "entity",
+      "metadata": {
+        "name": "Zhou",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_97",
+      "type": "entity",
+      "metadata": {
+        "name": "HeZ",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_98",
+      "type": "entity",
+      "metadata": {
+        "name": "Luo",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_99",
+      "type": "entity",
+      "metadata": {
+        "name": "ZhouX",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_100",
+      "type": "entity",
+      "metadata": {
+        "name": "NucleicAcidsRes",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_101",
+      "type": "entity",
+      "metadata": {
+        "name": "Cao",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_102",
+      "type": "entity",
+      "metadata": {
+        "name": "PackerJ",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_103",
+      "type": "entity",
+      "metadata": {
+        "name": "RamaniV",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_104",
+      "type": "entity",
+      "metadata": {
+        "name": "Wolf",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_105",
+      "type": "entity",
+      "metadata": {
+        "name": "Angerer",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_106",
+      "type": "entity",
+      "metadata": {
+        "name": "TheisF",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_107",
+      "type": "entity",
+      "metadata": {
+        "name": "Genome",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_108",
+      "type": "entity",
+      "metadata": {
+        "name": "BaranY",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_109",
+      "type": "entity",
+      "metadata": {
+        "name": "DoganBGS",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_110",
+      "type": "entity",
+      "metadata": {
+        "name": "ComputBiolMed",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_111",
+      "type": "entity",
+      "metadata": {
+        "name": "DumitrascuB",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_112",
+      "type": "entity",
+      "metadata": {
+        "name": "Villar",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_113",
+      "type": "entity",
+      "metadata": {
+        "name": "MixonD",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_114",
+      "type": "entity",
+      "metadata": {
+        "name": "NatCom",
+        "category": "ORG",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_115",
+      "type": "entity",
+      "metadata": {
+        "name": "Nelson",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_116",
+      "type": "entity",
+      "metadata": {
+        "name": "RivaSG",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "ent_117",
+      "type": "entity",
+      "metadata": {
+        "name": "Cvej",
+        "category": "PER",
+        "is_structured": false,
+        "pattern_type": null
+      }
+    },
+    {
+      "id": "img_1",
+      "type": "image",
+      "metadata": {
+        "path": "images/1d638d282afdd6b8fb1c88b8df3d96a012aff9355a7d33bc0b001dd860af6fbb.jpg",
+        "caption": "Figure 1 scMarkerGene workflow. In step 1, the input scRNA-seq expression matrix is randomly split into training and validation sets (9:1) and used to train an MLP classifier supervised by cell type annotations. The training process is guided by validation accuracy, with hyperparameters iteratively optimized using Optuna. Once the optimal hyperparameter set is determined, ensemble learning is further applied to generate a more robust attribution score matrix. In step 2, the top-N genes (user-defined) with the highest contribution scores are selected as candidate marker sets for each cell type. These gene lists are then re-ranked by computing a marker score, yielding the final marker lists (This figure is created by BioRender (http://www.biorender.com)).",
+        "page": 5,
+        "associated_chunk": "chunk_1",
+        "associated_section": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery",
+        "description": "",
+        "summary": ""
+      }
+    },
+    {
+      "id": "img_2",
+      "type": "image",
+      "metadata": {
+        "path": "images/90ab05a94bcb50b9ef4571ea3953197553dc46a0229f9c1e917b0e66365a547c.jpg",
+        "caption": "A",
+        "page": 6,
+        "associated_chunk": "chunk_1",
+        "associated_section": "Abstract",
+        "description": "",
+        "summary": ""
+      }
+    },
+    {
+      "id": "img_3",
+      "type": "image",
+      "metadata": {
+        "path": "images/7a85fa4569056d995992da02c810191a81aedd5b8d57a570300d41190f3b3032.jpg",
+        "caption": "C",
+        "page": 6,
+        "associated_chunk": "chunk_1",
+        "associated_section": "Introduction",
+        "description": "",
+        "summary": ""
+      }
+    },
+    {
+      "id": "img_4",
+      "type": "image",
+      "metadata": {
+        "path": "images/095fa95dbe7b811cceccee41ccf487e0e4ef6c0f8bc94fb9f880c0243088aea0.jpg",
+        "caption": "Figure 2 Benchmarking of scMarkerGene with existing marker gene detection methods. (A) Expression dotplot of representative marker genes identified by ten algorithms across annotated cell types (from left to right: Endothelial, fibroblast, lymphocyte, macrophage, pericyte, unknown, vascular smooth muscle). (B) Benchmarking on the Human\\_carotid dataset, where marker gene detection performance was evaluated using log2FC and normalized Z-score. Eight methods (scMarkerGene, scVI/scANVI, memento, scMAGs, scanpy, SMaSH, and NsForest) were compared. MarkerMap and scGeneFit could not provide target cell type–specific markers and were therefore excluded. (C) Cross-species benchmarking of the same eight methods as in (B) across eight single-cell datasets from mouse, Human, fly, and Arabidopsis. Performance was summarized using mean log2FC and mean normalized Z-score across cell types within each dataset. To avoid biases from underrepresented populations and ensure reliable marker estimation, cell types with fewer than 30 cells were excluded from all benchmarking analyses.",
+        "page": 6,
+        "associated_chunk": "chunk_2",
+        "associated_section": "Introduction",
+        "description": "",
+        "summary": ""
+      }
+    },
+    {
+      "id": "img_5",
+      "type": "image",
+      "metadata": {
+        "path": "images/b37c02c0f00aa7d97861bcf703754b8d8cb392f1b08aa00dfcd344a4022ea8dd.jpg",
+        "caption": "D",
+        "page": 8,
+        "associated_chunk": "chunk_1",
+        "associated_section": "scRNA-seq",
+        "description": "",
+        "summary": ""
+      }
+    },
+    {
+      "id": "img_6",
+      "type": "image",
+      "metadata": {
+        "path": "images/1af5223bbe741c265c202e2bcb3e3afeef0df20764426d617a7f1220d111775b.jpg",
+        "caption": "Figure 5 Expression heatmaps of cluster’s marker genes predicted by different methods in mouse brain tissue (10X Visium). Left: Annotated cluster labels. Right: Top marker gene for clusters 4, 5, and 6 predicted by each method.",
+        "page": 9,
+        "associated_chunk": "chunk_1",
+        "associated_section": "Spatial transcriptome data",
+        "description": "",
+        "summary": ""
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_root",
+      "target": "sec_1",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_2",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_3",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_4",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_5",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_6",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_7",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_8",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_9",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_10",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_11",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_12",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_13",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_14",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_15",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_16",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_17",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_18",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_19",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_20",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_21",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_22",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_23",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_24",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_25",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_26",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_27",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_28",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_29",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_30",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_31",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_32",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_33",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_34",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_35",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_36",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_37",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_38",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_39",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_40",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_41",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_42",
+      "type": "contains"
+    },
+    {
+      "source": "doc_root",
+      "target": "sec_43",
+      "type": "contains"
+    },
+    {
+      "source": "sec_1",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_2",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_3",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_4",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_5",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_6",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_7",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_8",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_9",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_10",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_11",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_12",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_13",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_14",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_15",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_16",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_17",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_18",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_19",
+      "target": "chunk_3",
+      "type": "contains"
+    },
+    {
+      "source": "sec_20",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_21",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_22",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_23",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_24",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_25",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_26",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_27",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_28",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_29",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_30",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_31",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_32",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_33",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_34",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_35",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_36",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_37",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_38",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_39",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_40",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_41",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_42",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_1",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_2",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_3",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_4",
+      "type": "contains"
+    },
+    {
+      "source": "sec_43",
+      "target": "chunk_5",
+      "type": "contains"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_3",
+      "type": "next"
+    },
+    {
+      "source": "chunk_3",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_1",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "chunk_2",
+      "type": "next"
+    },
+    {
+      "source": "chunk_2",
+      "target": "chunk_3",
+      "type": "next"
+    },
+    {
+      "source": "chunk_3",
+      "target": "chunk_4",
+      "type": "next"
+    },
+    {
+      "source": "chunk_4",
+      "target": "chunk_5",
+      "type": "next"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_44",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_45",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_46",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_47",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_48",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_49",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_50",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_51",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_52",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_53",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_54",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_55",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_56",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_50",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_51",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_52",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_53",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_54",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_55",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_57",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_50",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_51",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_52",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_53",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_54",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_55",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_58",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_59",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_60",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_61",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_55",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_49",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_50",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_51",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_52",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_53",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_54",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_55",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_62",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_44",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_63",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_64",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_66",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_68",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_69",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_70",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_71",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_73",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_74",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_75",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_76",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_77",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_65",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_2",
+      "target": "ent_78",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_79",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_80",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_81",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_79",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_80",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_81",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_82",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_83",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_80",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_81",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_79",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_84",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_85",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_86",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_87",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_88",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_89",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_90",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_91",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_92",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_93",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_94",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_95",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_96",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_97",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_98",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_99",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_100",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_101",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_102",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_103",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_104",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_105",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_106",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_107",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_108",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_109",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_110",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_111",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_112",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_113",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_114",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_115",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_116",
+      "type": "mentions"
+    },
+    {
+      "source": "chunk_1",
+      "target": "ent_117",
+      "type": "mentions"
+    },
+    {
+      "source": "img_1",
+      "target": "chunk_1",
+      "type": "associated_with"
+    },
+    {
+      "source": "img_2",
+      "target": "chunk_1",
+      "type": "associated_with"
+    },
+    {
+      "source": "img_3",
+      "target": "chunk_1",
+      "type": "associated_with"
+    },
+    {
+      "source": "img_4",
+      "target": "chunk_2",
+      "type": "associated_with"
+    },
+    {
+      "source": "img_5",
+      "target": "chunk_1",
+      "type": "associated_with"
+    },
+    {
+      "source": "img_6",
+      "target": "chunk_1",
+      "type": "associated_with"
+    }
+  ]
+}

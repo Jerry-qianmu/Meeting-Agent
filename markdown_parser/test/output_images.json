@@ -1,0 +1,71 @@
+[
+  {
+    "id": "img_1",
+    "path": "images/1d638d282afdd6b8fb1c88b8df3d96a012aff9355a7d33bc0b001dd860af6fbb.jpg",
+    "caption": [
+      "Figure 1 scMarkerGene workflow. In step 1, the input scRNA-seq expression matrix is randomly split into training and validation sets (9:1) and used to train an MLP classifier supervised by cell type annotations. The training process is guided by validation accuracy, with hyperparameters iteratively optimized using Optuna. Once the optimal hyperparameter set is determined, ensemble learning is further applied to generate a more robust attribution score matrix. In step 2, the top-N genes (user-defined) with the highest contribution scores are selected as candidate marker sets for each cell type. These gene lists are then re-ranked by computing a marker score, yielding the final marker lists (This figure is created by BioRender (http://www.biorender.com))."
+    ],
+    "footnote": [],
+    "page": 5,
+    "associated_chunk": "chunk_1",
+    "associated_section": "scMarkerGene: an interpretable neural network framework for cell-type-specific marker gene discovery"
+  },
+  {
+    "id": "img_2",
+    "path": "images/90ab05a94bcb50b9ef4571ea3953197553dc46a0229f9c1e917b0e66365a547c.jpg",
+    "caption": [
+      "A",
+      "B"
+    ],
+    "footnote": [],
+    "page": 6,
+    "associated_chunk": "chunk_1",
+    "associated_section": "Abstract"
+  },
+  {
+    "id": "img_3",
+    "path": "images/7a85fa4569056d995992da02c810191a81aedd5b8d57a570300d41190f3b3032.jpg",
+    "caption": [
+      "C"
+    ],
+    "footnote": [],
+    "page": 6,
+    "associated_chunk": "chunk_1",
+    "associated_section": "Introduction"
+  },
+  {
+    "id": "img_4",
+    "path": "images/095fa95dbe7b811cceccee41ccf487e0e4ef6c0f8bc94fb9f880c0243088aea0.jpg",
+    "caption": [
+      "Figure 2 Benchmarking of scMarkerGene with existing marker gene detection methods. (A) Expression dotplot of representative marker genes identified by ten algorithms across annotated cell types (from left to right: Endothelial, fibroblast, lymphocyte, macrophage, pericyte, unknown, vascular smooth muscle). (B) Benchmarking on the Human\\_carotid dataset, where marker gene detection performance was evaluated using log2FC and normalized Z-score. Eight methods (scMarkerGene, scVI/scANVI, memento, scMAGs, scanpy, SMaSH, and NsForest) were compared. MarkerMap and scGeneFit could not provide target cell type–specific markers and were therefore excluded. (C) Cross-species benchmarking of the same eight methods as in (B) across eight single-cell datasets from mouse, Human, fly, and Arabidopsis. Performance was summarized using mean log2FC and mean normalized Z-score across cell types within each dataset. To avoid biases from underrepresented populations and ensure reliable marker estimation, cell types with fewer than 30 cells were excluded from all benchmarking analyses."
+    ],
+    "footnote": [],
+    "page": 6,
+    "associated_chunk": "chunk_2",
+    "associated_section": "Introduction"
+  },
+  {
+    "id": "img_5",
+    "path": "images/b37c02c0f00aa7d97861bcf703754b8d8cb392f1b08aa00dfcd344a4022ea8dd.jpg",
+    "caption": [
+      "D",
+      "Performance evaluation of marker detection methods across sub-sampling",
+      "Figure 4 Performance of scMarkerGene in sub cell-type resolutions. (A) Venn diagrams summarizing the number of coarse (top) and sub (bottom) cell-type levels for which scMarkerGene and scMAGs achieved the highest marker specificity (Log2FC). scANVI, scanpy and SMaSH did not achieve the highest specificity in any group and are therefore not shown. (B) Marker specificity (Log2FC) of sub cell types grouped by population size, with ‘small’ defined as ≤100 cells and ‘large’ as >100 cells. (C) 3D surface plot showing marker gene log2FC across different population levels and cell types. (D) Heatmaps of the top three marker genes predicted by different methods at population levels of 50, 100, and 200 cells."
+    ],
+    "footnote": [],
+    "page": 8,
+    "associated_chunk": "chunk_1",
+    "associated_section": "scRNA-seq"
+  },
+  {
+    "id": "img_6",
+    "path": "images/1af5223bbe741c265c202e2bcb3e3afeef0df20764426d617a7f1220d111775b.jpg",
+    "caption": [
+      "Figure 5 Expression heatmaps of cluster’s marker genes predicted by different methods in mouse brain tissue (10X Visium). Left: Annotated cluster labels. Right: Top marker gene for clusters 4, 5, and 6 predicted by each method."
+    ],
+    "footnote": [],
+    "page": 9,
+    "associated_chunk": "chunk_1",
+    "associated_section": "Spatial transcriptome data"
+  }
+]
